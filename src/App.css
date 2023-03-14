@@ -1,38 +1,67 @@
-.App {
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.content {
+  max-width: 1000px;
+  padding: 0px 20px 0px 20px;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: paleturquoise;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.myname {
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 5px 20px 5px 20px;
+  width: 200px;
+  line-height: 49px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.selectedpage {
+  background-color: powderblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pages {
   display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.pages div {
+  padding: 0px 10px 0px 10px;
+  align-self: center;
+  line-height: 60px;
+  font-weight: 700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pages div:hover,
+.myname:hover {
+  background-color: skyblue;
+}
+
+.external {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.external div {
+  padding: 0px 20px 0px 0px;
 }
