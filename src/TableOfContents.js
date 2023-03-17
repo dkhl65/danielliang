@@ -56,6 +56,9 @@ function TableOfContents() {
   return (
     <nav>
       <ul>
+        <li>
+          <a href="#top">(Top)</a>
+        </li>
         {headings.map((heading) => (
           <li key={heading.id} className={getClassName(heading.level)}>
             <a

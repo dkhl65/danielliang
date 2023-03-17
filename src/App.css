@@ -6,7 +6,7 @@
 
 .content {
   max-width: 1000px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 10px 20px;
   background-color: white;
 }
 
@@ -98,4 +98,37 @@ nav a:hover {
 .head4 {
   margin-left: 20px;
   list-style-type: square;
+}
+
+.framed {
+  border: black solid 1px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.linebreak {
+  flex-basis: 100%;
+  width: 0;
+}
+
+.caption {
+  padding: 5px 20px 5px 20px;
+  flex-grow: 5;
+  text-align: center;
+  flex-basis: 80%;
+}
+
+.gallery button {
+  flex-grow: 1;
+  margin-top: 5px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+img {
+  max-width: 100%;
 }

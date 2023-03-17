@@ -5,6 +5,7 @@ import WebDevelopment from "./WebDevelopment";
 import Cpp from "./Cpp";
 import Java from "./Java";
 import Python from "./Python";
+import Verilog from "./Verilog";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/cpp" element={<Cpp />} />
           <Route path="/java" element={<Java />} />
           <Route path="/python" element={<Python />} />
+          <Route path="/verilog" element={<Verilog />} />
         </Routes>
       </div>
     </div>

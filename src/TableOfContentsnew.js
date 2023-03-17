@@ -4,9 +4,7 @@ const useHeadingsData = () => {
   const [nestedHeadings, setNestedHeadings] = useState([]);
 
   useEffect(() => {
-    const headingElements = Array.from(
-      document.querySelectorAll("h2, h3")
-    );
+    const headingElements = Array.from(document.querySelectorAll("h2, h3"));
 
     const newNestedHeadings = setNestedHeadings(headingElements);
     setNestedHeadings(newNestedHeadings);
@@ -44,7 +42,7 @@ const useIntersectionObserver = (setActiveId) => {
     };
 
     const observer = new IntersectionObserver(callback, {
-      rootMargin: "0px 0px -40% 0px"
+      rootMargin: "0px 0px -40% 0px",
     });
 
     const headingElements = Array.from(document.querySelectorAll("h2, h3"));
@@ -64,7 +62,7 @@ const Headings = ({ headings, activeId }) => (
           onClick={(e) => {
             e.preventDefault();
             document.querySelector(`#${heading.id}`).scrollIntoView({
-              behavior: "smooth"
+              behavior: "smooth",
             });
           }}
         >
@@ -73,13 +71,16 @@ const Headings = ({ headings, activeId }) => (
         {heading.items.length > 0 && (
           <ul>
             {heading.items.map((child) => (
-              <li key={child.id} className={child.id === activeId ? "active" : ""}>
+              <li
+                key={child.id}
+                className={child.id === activeId ? "active" : ""}
+              >
                 <a
                   href={`#${child.id}`}
                   onClick={(e) => {
                     e.preventDefault();
                     document.querySelector(`#${child.id}`).scrollIntoView({
-                      behavior: "smooth"
+                      behavior: "smooth",
                     });
                   }}
                 >

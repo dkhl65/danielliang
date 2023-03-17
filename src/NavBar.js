@@ -30,6 +30,11 @@ function NavBar() {
             Python
           </div>
         </Link>
+        <Link to="/verilog">
+          <div className={location === "/verilog" ? "selectedpage" : ""}>
+            Verilog
+          </div>
+        </Link>
       </div>
       <div className="external">
         <div>
