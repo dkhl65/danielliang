@@ -47,7 +47,7 @@ function Java() {
           alt="cardbomberapp"
           src="https://sat02pap005files.storage.live.com/y4mzMyq1yYYvYFawtuUMlMAjZIs2Q-om6xSogpZ65PqQx-cZMwdp5YTEZwd7EdlcBkksy3hlhxZKG-FXnf7S7SKNPmUqHEmMhCHqM094zeCfwIsdCTwaErJSdcQw6axCGxq98yj7UgxlumstswdNvdXVvr7NyFOL3KW3rYx4W3dhSiQtagFSgIuauvx7XVW94El?width=2607&height=1682&cropmode=none"
         />
-        <h2 id="projectile">Projectile 2017</h2>
+        <h2 id="projectile">Projectile (2017)</h2>
         <p>
           This is my grade 12 computer science final project that I worked on
           with one other student. A physics teacher was acting as our client and
