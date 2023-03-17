@@ -55,6 +55,17 @@ const lineFollowingPictures = [
   "https://sat02pap005files.storage.live.com/y4mKLdFSu7ph6xKVAPQh2ZvgWT52am7GtijlK7NDiPSlm-FNWQbPCJnd4jaXVVouwevKOVwWarxsHuUGR8wPysii4l38LxxP1E0mIbNs0KJDuhzXLDxYxTlQuTZ87XXAt6KzlLPFCH2RS3FzJXjRYuZwuuYYS_zV2jCIM5UYx868dkPvTDG4nbbSLHIxBkl47AB?width=3264&height=2448&cropmode=none",
 ];
 
+const lineFollowingVideos = [
+  "https://drive.google.com/file/d/1fFApYQjbwS0yc1TLYr4N8KFeK4w7keVC/preview",
+  "https://drive.google.com/file/d/1zFx6L64IoBV4s6jmVK46lg6gG96Q83ox/preview",
+  "https://drive.google.com/file/d/1fEEeqBIFIkupm20X8hD60wEUKscVczko/preview",
+  "https://drive.google.com/file/d/1rp-jCtd_RSKAiLruAsTFY713ps6ZT85r/preview",
+  "https://drive.google.com/file/d/1a0Fl2Tn5ZZTkg_moGMUw-EJ2wIsbAFN6/preview",
+  "https://drive.google.com/file/d/1BLjk1KojvNegyJH2eAKrvdS8N3khY26H/preview",
+  "https://drive.google.com/file/d/1y21sQB57Q0WUx0lRAzxt53oAXA4GW6Iz/preview",
+  "https://drive.google.com/file/d/1u11nNWasjClbpq4cqsU5WwAiCHTRETI0/preview",
+];
+
 const wikispaceSources = [
   "https://sat02pap005files.storage.live.com/y4m08GbZ-4RsTa1_l8_PmW1yzVpPSSkuXoEZXCsBlA91CIzYYzWwKrY2LzAcNII5Pu41vrw9i6v_lPPAFuqhY79qkPLhcmHx7R7A6H0_7hOTknmzKZXjUExG7gtNcBK6UP4BklW1xZKlLmW5PNaYZ6BOWUjg1VOgOxSzmLQFVveIMQdIl3lkUebM1-I9gEnDspK?width=1712&height=1017&cropmode=none",
   "https://sat02pap005files.storage.live.com/y4mn3WZG04DhqjgcT0MpPg8zlKpyOnj1Me-SqKc4yLXeQNCXdRIOvWXJU_buZR3rZNeyAZGKeaVRhpAVOWKCCEY1fon2CJlex6oIU4dfqCf9Jeaf6KMEyoOlfjXQsTy9wNtkrpMLSO73ecYERp-N1hG9Yb7v0H22oG_d2lqljK8Y5QbbVVHQj6TxjWSteoyjZhO?width=1711&height=1017&cropmode=none",
@@ -343,6 +354,8 @@ function Cpp() {
           .
         </p>
         <Gallery sources={lineFollowingPictures} />
+        <br />
+        <Gallery video="true" sources={lineFollowingVideos} title="linefollowing" width="800" height="450" />
         <h2 id="traffic">Traffic Light Model (2016)</h2>
         <p>
           For my grade 11 Computer Engineering final project, I made a model of
