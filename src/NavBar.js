@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function NavBar() {
@@ -37,6 +38,11 @@ function NavBar() {
         </Link>
       </div>
       <div className="external">
+        <div>
+          <a href="mailto:dan.liang@mail.utoronto.ca">
+            <FontAwesomeIcon icon={faEnvelope} size="xl" />
+          </a>
+        </div>
         <div>
           <a
             href="https://www.linkedin.com/in/daniel-liang-957960149/"

@@ -16,7 +16,8 @@
   background-color: paleturquoise;
 }
 
-.navbar a {
+.navbar a,
+.contact a {
   text-decoration: none;
   color: black;
 }

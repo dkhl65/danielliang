@@ -236,7 +236,7 @@ function Cpp() {
           alt="sumocad"
           src="https://sat02pap005files.storage.live.com/y4m62h6ZE3K-5bx-Jzn8wsfs1p20NPTL1aAUzOuk7eFWEnhPNfSNTumhMEOX-Fqf0kPwsHIN_R2mXn2UjBviiqyMprWZosY-PnQ2EhCaWzV-3m2CHk8TMLzONnmKRmoYysC0els7b7pA1CUZofOrwy0y6Bi1qqZgvEqTuu1OxFkQxjNppeNgVwAbR1y5_9oiF4n?width=1603&height=1131&cropmode=none"
         />
-        <div>The chassis of the roboto was designed with CAD.</div>
+        <div>The chassis of the robot was designed in Autodesk Fusion 360.</div>
         <br />
         <Gallery sources={sumoSources} />
         <br />
@@ -355,7 +355,13 @@ function Cpp() {
         </p>
         <Gallery sources={lineFollowingPictures} />
         <br />
-        <Gallery video="true" sources={lineFollowingVideos} title="linefollowing" width="800" height="450" />
+        <Gallery
+          video="true"
+          sources={lineFollowingVideos}
+          title="linefollowing"
+          width="800"
+          height="450"
+        />
         <h2 id="traffic">Traffic Light Model (2016)</h2>
         <p>
           For my grade 11 Computer Engineering final project, I made a model of
