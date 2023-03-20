@@ -1,11 +1,11 @@
 import "./App.css";
-import Home from "./Home";
 import NavBar from "./NavBar";
-import WebDevelopment from "./WebDevelopment";
-import Cpp from "./Cpp";
-import Java from "./Java";
-import Python from "./Python";
-import Verilog from "./Verilog";
+import Home from "./pages/Home";
+import WebDevelopment from "./pages/WebDevelopment";
+import Cpp from "./pages/Cpp";
+import Java from "./pages/Java";
+import Python from "./pages/Python";
+import Verilog from "./pages/Verilog";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
