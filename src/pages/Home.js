@@ -150,7 +150,7 @@ function Home() {
         Probabilistic Reasoning (ECE368), all of which taught low level
         computational intelligence and machine learning related concepts. All
         three courses had assignments programmed in Python. For my year-long
-        design project, also known as Capstone, I researched blockchain
+        design project, also known as capstone, I researched blockchain
         technology and Proof of Stake consensus algorithm, wrote extensive
         documentation and created a web app using React, TypeScript and Redux
         for simulating Proof of Stake.
