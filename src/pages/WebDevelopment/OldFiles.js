@@ -5,7 +5,9 @@ function OldFiles() {
     <>
       <h2 id="oldfiles">Old Files (2009-2011)</h2>
       <p>
-        My first experience with coding. More files can be found{" "}
+        I expanded upon JavaScript and HTML examples in books that I borrowed
+        form the local library. I have included two of my favourite examples
+        from below. More files can be found{" "}
         <a
           href="https://github.com/dkhl65/Web-Development"
           target="_blank"

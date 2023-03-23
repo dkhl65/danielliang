@@ -31,7 +31,12 @@ function Gallery(props) {
           allowFullScreen="true"
         ></iframe>
       ) : (
-        <img alt={`${index}`} src={props.sources[index]} />
+        <img
+          alt={`${index}`}
+          src={props.sources[index]}
+          width={props.width ? props.width : "auto"}
+          height={props.height ? props.height : "auto"}
+        />
       )}
       <div className="linebreak"></div>
       <button

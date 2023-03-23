@@ -1,4 +1,55 @@
 import React from "react";
+import Gallery from "../Gallery";
+
+const networkSources = [
+  "https://sat02pap005files.storage.live.com/y4mj3oe4nycZZHB9SDbNYPzfiaT6Kb8NsZ2OTwWfIbGWTIRuVXTHlPOawOsZaINv4hudy-VdrIhW6IhM70iTr64DovSG321frxyfLHCr8TFen6BnbtSMrsOVdfyICJNVK0t2rOhZO2_pjAGNrLO4NBn7QwE8oAEWY124js_aX0eaGiErWCojhSToHq52ElfB5fL?width=1999&height=1192&cropmode=none",
+  "https://sat02pap005files.storage.live.com/y4mM7pwsZ5vvoLaFZVAzfaAip-vzYWTasqyowx4X3tw_VhbPgEeFja90r1Iaw-M0OvavuBmL49pmO_0KpEHYOH8hOHNH6vvPRP2xXp_MuOYzIQN7-9IXT45dlqYtGkG0PyfxWYIyJoKZotdk67nTP-gX88RsotiwM56CbucocuE-IATFAV-GWAL3rKhZGp6QJzW?width=1999&height=1162&cropmode=none",
+  "https://sat02pap005files.storage.live.com/y4mYtXVoV7KzIoRyOx0yM4Bphd2pSA-IKV2WNF5Q4U1P46fRG8MXJtykWIUcUdLWQFuEfpswQYyPba-GlVypwedbtNMZ5RWTA-t3dcHfUeBXGA5GunXQMP3FWc-27Uvm6Y3qKHqqlDsm-qL2wXcnfS7PoCev9cj13dh-QYNsajoEnuibV3RoE9pwecD2zUEPOGZ?width=1999&height=1172&cropmode=none",
+  "https://sat02pap005files.storage.live.com/y4mPJ9GsWLhYh1y3JGPKvrsaHYfY1s--cFe2M5NZuDf9EO2bfgM6WARGSEHD_u3_HVwxxHneCCJGHBKF_-wqdHm1mRlf8O2zp32r-BQW4742-LWWpSj1HEk37-4PgtBRpin_hpc3saFR7vxywZKoYTe_HTlR1Kcm9Koo34ENJj3UBfl1JaNvhdZBvFryHzsHbHe?width=1999&height=1182&cropmode=none",
+];
+
+const networkCaptions = [
+  `This is the home page of the app. 
+  The Background Info functionality gives quick access 
+  to some relevant information about blockchain technology.`,
+  `Clicking "Create Network" on the home page takes the user to this view. 
+  It asks the user is to input the simulation configurations. 
+  I created the user interface for this page.`,
+  `After selecting the settings it takes the user to the node selector page. 
+  This allows the user to select the distribution of nodes among the different continents.`,
+  `After selecting the node distribution, the values are stored into the Redux store 
+  and a new network is created with this configuration. 
+  The nodes are randomly generated according to the distribution in each continent. 
+  The user is able to simulate the network for a certain number of seconds or 
+  simulate it until a certain number of blocks are added to the longest chain.`,
+];
+
+const hostSources = [
+  "https://sat02pap005files.storage.live.com/y4mLtmB6k9ZzIDZobW7G5h42mXtVwGHBM32MWcua5F62J5bogHTVlkH5QsRlJM0Z_8Wu3FvFpZJgA8ziEbgPycjWbACO9HUCojSczzWneh6WFvez2OWBjUKOFOTTLid8oNupvvx-xpdHaZRPS8vvHitlzIsP3e5E6eyGqWfldLGF7XT0qIpIjlQOrBD5320M21K?width=1270&height=944&cropmode=none",
+  "https://sat02pap005files.storage.live.com/y4mHDBulo-x0Kx4eN0H58n78u9j2hbxVFP_ouD4cx_tSAWLl8UMJoU8LVHB5LGw_hRTRAavcEQhAvIyjapyYyL3m5ZZL60ar6LlVUTYb7gFoz0Fo0SbOBoz_HeSNnNiaHZN1JrvIw3q7TSAKajeAfw3clEzmzR6Luh1jWzSHFpm8cZ4jUKQEUcBze6lwBlbU1Rd?width=1858&height=1760&cropmode=none",
+  "https://sat02pap005files.storage.live.com/y4mPFtWRvhR5gqAdS1JZSvoxbPrULKwrRWGzUmd7q2UpKu33VRCEonrNvkGbgdp6Hsvm-R6MtfbztND4SQn8sioN37Y41oIIMaNdo9QwMbfzQcX5-TqKAsXHqVIxO7IJDehj2sGkOFBlszONARo9skgQ4S7YwpvBlYGZRhdauG2rM-TPK8_9K_ggw-HimGR0_eI?width=785&height=777&cropmode=none",
+];
+
+const hostCaptions = [
+  `This view provides a dropdown to allow the user to select a host that
+  was created during the network creation process. After selecting any
+  specific node, it shows the blockchain network from that node's
+  perspective. This includes a section to view the local version of the
+  chain, some host specific stats such as the location and role of the
+  host. The chain object shows the different blocks that are part of the
+  chain including all the details such as data and hash of each block.
+  This lets the user analyze the chain for different hosts and compare
+  them to get a better understanding of how the network behaves.`,
+  `The metrics dashboard allows users to view statistics related to the
+  current simulation in a tabulated form, and download it as a CSV. The
+  dashboard provides descriptions and values of configuration information
+  and statistics including: staking, voting power, leader election method,
+  anti-malicious algorithm, block size, number of nodes, number of
+  malicious nodes, throughput, finality, and nakamoto coefficient.`,
+  `Users will be able to upload previously downloaded CSVs to generate
+  comparison graphs to compare statistics between different network
+  configurations.`,
+];
 
 function BlockchainSimulator() {
   return (
@@ -41,87 +92,14 @@ function BlockchainSimulator() {
         implemented the simulation settings page. I coded the class the stores
         information about a host in the blockchain.
       </p>
-      <img
-        alt="homepage"
-        src="https://sat02pap005files.storage.live.com/y4mj3oe4nycZZHB9SDbNYPzfiaT6Kb8NsZ2OTwWfIbGWTIRuVXTHlPOawOsZaINv4hudy-VdrIhW6IhM70iTr64DovSG321frxyfLHCr8TFen6BnbtSMrsOVdfyICJNVK0t2rOhZO2_pjAGNrLO4NBn7QwE8oAEWY124js_aX0eaGiErWCojhSToHq52ElfB5fL?width=1999&height=1192&cropmode=none"
+      <h3 id="network">Network Setup</h3>
+      <Gallery
+        sources={networkSources}
+        captions={networkCaptions}
+        height="581"
       />
-      <div>
-        This is the home page of the app. The Background Info functionality
-        gives quick access to some relevant information about blockchain
-        technology.{" "}
-      </div>
-      <br />
-      <img
-        alt="settings"
-        src="https://sat02pap005files.storage.live.com/y4mM7pwsZ5vvoLaFZVAzfaAip-vzYWTasqyowx4X3tw_VhbPgEeFja90r1Iaw-M0OvavuBmL49pmO_0KpEHYOH8hOHNH6vvPRP2xXp_MuOYzIQN7-9IXT45dlqYtGkG0PyfxWYIyJoKZotdk67nTP-gX88RsotiwM56CbucocuE-IATFAV-GWAL3rKhZGp6QJzW?width=1999&height=1162&cropmode=none"
-      />
-      <div>
-        Clicking "Create Network" on the home page takes the user to this view.
-        It asks the user is to input the simulation configurations. I created
-        the user interface for this page.
-      </div>
-      <br />
-      <img
-        alt="network"
-        src="https://sat02pap005files.storage.live.com/y4mYtXVoV7KzIoRyOx0yM4Bphd2pSA-IKV2WNF5Q4U1P46fRG8MXJtykWIUcUdLWQFuEfpswQYyPba-GlVypwedbtNMZ5RWTA-t3dcHfUeBXGA5GunXQMP3FWc-27Uvm6Y3qKHqqlDsm-qL2wXcnfS7PoCev9cj13dh-QYNsajoEnuibV3RoE9pwecD2zUEPOGZ?width=1999&height=1172&cropmode=none"
-      />
-      <div>
-        After selecting the settings it takes the user to the node selector
-        page. This allows the user to select the distribution of nodes among the
-        different continents.
-      </div>
-      <br />
-      <img
-        alt="map"
-        src="https://sat02pap005files.storage.live.com/y4mPJ9GsWLhYh1y3JGPKvrsaHYfY1s--cFe2M5NZuDf9EO2bfgM6WARGSEHD_u3_HVwxxHneCCJGHBKF_-wqdHm1mRlf8O2zp32r-BQW4742-LWWpSj1HEk37-4PgtBRpin_hpc3saFR7vxywZKoYTe_HTlR1Kcm9Koo34ENJj3UBfl1JaNvhdZBvFryHzsHbHe?width=1999&height=1182&cropmode=none"
-      />
-      <div>
-        After selecting the settings and node distribution, the values are
-        stored into the Redux store and a new network is created with this
-        configuration. The nodes are randomly generated according to the
-        distribution in each continent. The user is able to simulate the network
-        for a certain number of seconds or simulate it until a certain number of
-        blocks are added to the longest chain.
-      </div>
-      <br />
-      <img
-        alt="host"
-        src="https://sat02pap005files.storage.live.com/y4mLtmB6k9ZzIDZobW7G5h42mXtVwGHBM32MWcua5F62J5bogHTVlkH5QsRlJM0Z_8Wu3FvFpZJgA8ziEbgPycjWbACO9HUCojSczzWneh6WFvez2OWBjUKOFOTTLid8oNupvvx-xpdHaZRPS8vvHitlzIsP3e5E6eyGqWfldLGF7XT0qIpIjlQOrBD5320M21K?width=1270&height=944&cropmode=none"
-      />
-      <div>
-        This view provides a dropdown to allow the user to select a host that
-        was created during the network creation process. After selecting any
-        specific node, it shows the blockchain network from that node's
-        perspective. This includes a section to view the local version of the
-        chain, some host specific stats such as the location and role of the
-        host. The chain object shows the different blocks that are part of the
-        chain including all the details such as data and hash of each block.
-        This lets the user analyze the chain for different hosts and compare
-        them to get a better understanding of how the network behaves.
-      </div>
-      <br />
-      <img
-        alt="metrics"
-        src="https://sat02pap005files.storage.live.com/y4mHDBulo-x0Kx4eN0H58n78u9j2hbxVFP_ouD4cx_tSAWLl8UMJoU8LVHB5LGw_hRTRAavcEQhAvIyjapyYyL3m5ZZL60ar6LlVUTYb7gFoz0Fo0SbOBoz_HeSNnNiaHZN1JrvIw3q7TSAKajeAfw3clEzmzR6Luh1jWzSHFpm8cZ4jUKQEUcBze6lwBlbU1Rd?width=1858&height=1760&cropmode=none"
-      />
-      <div>
-        The metrics dashboard allows users to view statistics related to the
-        current simulation in a tabulated form, and download it as a CSV. The
-        dashboard provides descriptions and values of configuration information
-        and statistics including: staking, voting power, leader election method,
-        anti-malicious algorithm, block size, number of nodes, number of
-        malicious nodes, throughput, finality, and nakamoto coefficient.
-      </div>
-      <br />
-      <img
-        alt="graph"
-        src="https://sat02pap005files.storage.live.com/y4mPFtWRvhR5gqAdS1JZSvoxbPrULKwrRWGzUmd7q2UpKu33VRCEonrNvkGbgdp6Hsvm-R6MtfbztND4SQn8sioN37Y41oIIMaNdo9QwMbfzQcX5-TqKAsXHqVIxO7IJDehj2sGkOFBlszONARo9skgQ4S7YwpvBlYGZRhdauG2rM-TPK8_9K_ggw-HimGR0_eI?width=785&height=777&cropmode=none"
-      />
-      <div>
-        Users will be able to upload previously downloaded CSVs to generate
-        comparison graphs to compare statistics between different network
-        configurations.
-      </div>
+      <h3 id="host">Host Data</h3>
+      <Gallery sources={hostSources} captions={hostCaptions} height="743" />
     </>
   );
 }
