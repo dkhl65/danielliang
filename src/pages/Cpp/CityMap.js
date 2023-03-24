@@ -30,6 +30,19 @@ const exploreSources = [
   "https://sat02pap005files.storage.live.com/y4m416ZX0KP9RcpfFFxGJl62AxhXB-gNjYpX9iBHCWQEVYb1SE33vaVdv2x0p6PD12ZEVwstt530FNkNUpw_PvTq_huJ2Ka4hCyUhYpAgDDiY8w_v6spgkG2p4Mdcd8HSrYg61G_SKTjzmqidXfC6E4o-e4fMD-AB43zDPZQFFstlUfg3IQpeBlMsnU_jf5lut9?width=762&height=594&cropmode=none",
 ];
 
+const exploreCaptions = [
+  "The Help button shows instructions for using the navigation and search features.",
+  `Map features are colour coded depending on their catagory provided by the map data. 
+  Streets are coloured by speed limit, buildings are purple, water is blue, 
+  parks and forests are different shades of green.`,
+  "Intersections are used as starting and end points for navigation.",
+  "Beaches are coloured in beige.",
+  "Searching a partial name of an intersection will show it on the map at the appropriate zoom level.",
+  "Searching a partial name of a feature will show all features containing the key word.",
+  "Entering the cm keyword, followed by the bin file name will switch the map.",
+  "The bin file for Hong Kong, China has been loaded.",
+];
+
 const pathfindingSources = [
   "https://sat02pap005files.storage.live.com/y4mntr0o6nf6_RSvcX82iYB22cvxvL2D-J0JLS6RBQK0-QIX06VVVOuDjDYdyk9KSK5LabvHgK_apDd-Wxyimj3PlPXF1KzjXmQnUxItCWMpuD8YvObWCC4vc3hKKjZ24kaJKUhC7BReeOMTmexJviE4hM0oS6tuQEM9awpR0elqpYqyQWi6tB8hLZXVaRweQ6e?width=766&height=596&cropmode=none",
   "https://sat02pap005files.storage.live.com/y4m5x3a9IrEvZOoe834TKqGsyLtLnGDxOsrQXtHUkX0ndjvqvnxrJB91ys7hHMJXuXwRmngUEN7-xJTQk0-S1abKEqkIclgVSr_fbm43DqZywso-oeYt6ROcExzFgqPPqvqgtn-OcgqCOw54XpCvj9GuSgWNADKtowpA7xP6O3i8aeQ6Ce2oHVP-FVF1rRSw3Uv?width=767&height=596&cropmode=none",
@@ -37,23 +50,40 @@ const pathfindingSources = [
   "https://sat02pap005files.storage.live.com/y4mgVBgwNcH5lWmNik2YqaPNVahLoWS8_RAs4NJWUBT_obzJCLzrQFhCJ7CrJeuCMdjUWUPas8WvlNZSiudlrka1LUdwJlAX0Rbc2XHSr4JgFWFzgyAX4C5z7M1pcyjNTh2W2xjfHpIBXkQUCGR9xVf2PH2TTwGVG1Awwcbp9JWAze0Kf0nTBi6puJYDnuMUFpc?width=762&height=597&cropmode=none",
 ];
 
+const pathfindingCaptions = [
+  "The Find Path button was clicked with a blank search bar, then the starting intersection was selected.",
+  "The path is highlighted in red after selecting the destination intersection. The estimated time is based on the speed limit and left/right turn penalties.",
+  "Two partial name intersections seperated by a comma can be used to find directions.",
+  "Show Directions button will give step by step directions with distance before turns.",
+];
+
 function CityMap() {
   return (
     <>
       <h2 id="citymap">City Map (2019)</h2>
       <p>
-        This is a project completed in the second year of university for the
-        Communication and Design course with two other students. It is written
-        entirely in C++ on a Linux system with Git, but the code cannot be
-        released online due to copyright by the univeristy. Most of the code was
-        written by me. Using map data from a bin file, we displayed graphics for
-        features of the map such as green spaces, buildings, streets and
-        intersections. Intersections and features can be searched using the text
-        field at the top of the window. Paths can be found between
-        intersections. In addition to the map graphics, we also developed an
-        algorithm to find the best sequence of paths for a delivery truck to
-        pick up and drop off packages. This is similar to the famous traveling
-        salesman problem, but with extra restrictions such as truck capacity.
+        This first part of this project is a GTK app I created with two other
+        students for the Communication and Design (ECE297) course. The purpose
+        of this app is to draw a map using data from{" "}
+        <a
+          href="https://www.openstreetmap.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          OpenStreetMap
+        </a>{" "}
+        and provide navigational directions using a pathfinding algorithm. The
+        second part of this project is the Traveling Courier challenge to help a
+        delivery truck find the best route to pick up and drop off packages.
+      </p>
+      <p>
+        The project is entirely coded in C++ using the university's Debian
+        GNU/Linux computers. We used functions from OpenStreetMap's API to
+        interpret the data from bin files. We used a GTK based library written
+        by the course instructors to draw the map features and create the user
+        interface. Collaborate was done with Git. Since all of the code and
+        libraries are on the university's computer system, I cannot provide a
+        Git link here.
       </p>
       <h3 id="zoomlevels">Zoom Levels</h3>
       <p>
@@ -71,7 +101,7 @@ function CityMap() {
         a bin file by entering the file path into the text field or using the
         city name and country name.
       </p>
-      <Gallery sources={exploreSources} />
+      <Gallery sources={exploreSources} captions={exploreCaptions} />
       <h3 id="pathfinding">Pathfinding</h3>
       <p>
         Dijkstra's algorithm is used to find the best path between two
@@ -80,7 +110,7 @@ function CityMap() {
         by clicking the two intersections on the map. The pathfinding takes left
         turns and right turns into account and avoids turning when possible.
       </p>
-      <Gallery sources={pathfindingSources} />
+      <Gallery sources={pathfindingSources} captions={pathfindingCaptions} />
       <h3 id="videodemo">Video Demonstration</h3>
       <iframe
         src="https://drive.google.com/file/d/15YlgMxjCh6RNn0AKn5czEt2JVZX0_1Zc/preview"
@@ -96,26 +126,51 @@ function CityMap() {
       </div>
       <h3 id="traveling">Traveling Courier</h3>
       <p>
-        This algorithm finds a good sequence for a delivery truck to to pick up
-        and drop off a series of packages located anywhere in the city. It is
-        subjected to a finite truck capacity and 45 second computational time.
-        The initial process is like Dijkstra, but searches the entire map. This
-        process has n log n complexity and uses multi-threading. After it is
-        done, a path from a delivery location to anywhere on the map can be
-        found very quickly with the O(n) traceback routine. This is important
-        when the entire courier path is being constructed and rearranged. The
-        second process is Multi-Start. The first phase starts at every depot and
-        travels to the next best delivery location based on travel time. The
+        This is the second part of the project, which does not involve any
+        graphics, but uses the map data from part 1. A series of pickup and
+        dropoff locations are assigned to intersections in the city. The
+        delivery truck can carry only a specified number of packages at a time.
+        It needs to go to the pickup (depot) location before going the dropoff
+        location. There is a 45 second compute time limit. The challenge is to
+        complete the deliveries as fast as possible.
+      </p>
+      <p>
+        We modified our Dijkstra's algorithm from part 1. The original algorithm
+        stops searching paths once the destination is found. This time, the
+        algorithm begins at the starting intersection and searches the entire
+        map. This process has O(n log n) time complexity and uses
+        multi-threading. After it is done, a path from a delivery location to
+        anywhere on the map can be found very quickly with the O(n) traceback
+        routine. We call this dijkstraUnlimited, the first process. I was
+        responsible to coding this process.
+      </p>
+      <p>
+        The second process is Multi-Start. The first phase starts at every depot
+        and travels to the next best delivery location based on travel time. The
         best path from this phase is passed to the second phase, which does the
         same thing, except that it has a 10% chance of going to the second best
         location instead of the best. There is potential to find a shorter
         overall path this way, even if one segment is longer. It repeats this
-        ten thousand times. The third process is random 3-opt. Four consecutive
-        delivery instructions are randomly shuffled. This has the effect of
-        disconnecting three paths and reconnecting in a different way. It can
-        help undo paths that cross over. This repeats until the 45 second limit
-        is over. This algorithm has been tested with orders of more than 200
-        deliveries at a time. The results of the contest are{" "}
+        ten thousand times.
+      </p>
+      <p>
+        The third process is random 3-opt. Four consecutive delivery
+        instructions are randomly shuffled. This has the effect of disconnecting
+        three paths and reconnecting in a different way. It can help undo paths
+        that cross over. This repeats until the 45 second limit is over. This
+        algorithm has been tested with orders of more than 200 deliveries at a
+        time.
+      </p>
+      <img
+        alt="travelingcourier"
+        src="https://sat02pap005files.storage.live.com/y4mZZ0XU5cIeTHZN7Q3YjRnuT-Qm2QtQEkp8lIi5F7rnCTkH-So82FwPTIULGzuzTbqqz41OHxMF30Wp1vNRh7i0Pz9ZnAL4mzQKtWgHjaauZcgHeqBr_RdEapI11WgTzfRWHXFyTStXV9PFhB3sVlDy8uEii4ZW4XQMcxoTUVRv3ctMSMVl11qr3jVQ9AkihwZ?width=1321&height=384&cropmode=none"
+      />
+      <p>
+        Choosing the heuristic algorithms for rearranging the path is the most
+        challenging aspect of this project. We studied other algorithms such as
+        2-opt, 4-opt and simulated annealing before deciding on which to use.
+        Our results were compared to other student groups in the course and the
+        TA examples to determine our grade. The results of the contest are{" "}
         <a
           href="https://ug251.eecg.utoronto.ca/ece297s/contest_2019/final.html"
           target="_blank"
@@ -125,10 +180,6 @@ function CityMap() {
         </a>
         . My group was an-345, rank 16.
       </p>
-      <img
-        alt="travelingcourier"
-        src="https://sat02pap005files.storage.live.com/y4mZZ0XU5cIeTHZN7Q3YjRnuT-Qm2QtQEkp8lIi5F7rnCTkH-So82FwPTIULGzuzTbqqz41OHxMF30Wp1vNRh7i0Pz9ZnAL4mzQKtWgHjaauZcgHeqBr_RdEapI11WgTzfRWHXFyTStXV9PFhB3sVlDy8uEii4ZW4XQMcxoTUVRv3ctMSMVl11qr3jVQ9AkihwZ?width=1321&height=384&cropmode=none"
-      />
     </>
   );
 }

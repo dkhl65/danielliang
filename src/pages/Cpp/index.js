@@ -18,12 +18,11 @@ function Cpp() {
       <div className="content">
         <h1>C/C++</h1>
         <p>
-          This programming language is similar to C++. Is used it in grade 11
-          and 12 for microcontroller projects. It was also a required course for
-          my university program's Computer Fundamentals course. This language is
-          simple and close to hardware, which means the language is
-          straightforward and does not have many behind the scenes processing.
-          Below are projects I made with the C language.
+          I first learned C and C++ in grade 7 and 8 for Arduino using library
+          books and online resources. I continued to use C in high school for
+          microcontroller projects. I also took several university courses where
+          I learned and used C and C++. I also used it during my PEY Co-op at
+          Analog Devices.
         </p>
         <CityMap />
         <RemoteControlRobot />
