@@ -15,10 +15,10 @@ function Java() {
         <p>
           My first encounter with Java is with Processing, which is an IDE based
           on Java for creating visuals. I formally learned learned Java in grade
-          11 computer science class, using Dr. Java IDE. I used it for school
-          projects. In the summer, I experimented with Android Studio, which
-          uses Java and XML to make Android apps. Below are my most significant
-          work created with Java.
+          11 Introduction to Computer Science (ICS3U0) class, using Dr. Java
+          IDE. I used it for school projects. In the summer of 2018, I
+          experimented with Android Studio, which uses Java and XML to make
+          Android apps. Below are my most significant work created with Java.
         </p>
         <CardBomberApp />
         <Projectile />

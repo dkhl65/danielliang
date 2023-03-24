@@ -9,19 +9,32 @@ const sumoSources = [
   "https://sat02pap005files.storage.live.com/y4mtOFmclDXT3NpXQSclrc8fH7P9cz7IX7SVraA3XbZ4VTtQsD-gLzYVwHvGh71ujBxfHKtYKNDK9eC5Co4Oojt8KByhK_uMHnO-zIwmpt6ZDIVLN3DSfJvdp5FftVqHZ0RSlYgTrJJ8jhxy80SN9u3IZc27mg4x8zmq7S--snFzirxIT71B1pCcXlRDXEtlQT8?width=3264&height=2448&cropmode=none",
 ];
 
+const sumoCaptions = [
+  "Diagonal view.",
+  "Right side view.",
+  "Back view. The paper covers the sharp edges of the metal",
+  "Top view.",
+  "Front view. The plastic card provides an edge so the robot does not flip itself over when ramming another robot.",
+];
+
 function Sumo() {
   return (
     <>
       <h2 id="sumo">Sumo Robotics (2017-2018)</h2>
       <p>
-        SUMO is a type of robot competition where two robots try to push each
-        other out of the ring. I worked on this robot with two other students
-        throughout the entire school year. It has two motors, two wheels, an
-        ultrasonic sensor in front and a line sensor at the bottom that detects
-        the edge of the ring. It is controlled by ATMega328, which is the brains
-        of an Arduino. It is programmed by detaching the ATMega328 chip and
-        placing it into an Arduino board. The power source is a 9V battery with
-        a 5V regulator. The project file is{" "}
+        I joined the University of Toronto Robotics Association (UTRA) and
+        participated in their Sumo robot competition. Sumo is a type of robot
+        competition where two robots try to push each other out of the ring. I
+        worked on this robot with two other students throughout the entire
+        school year.
+      </p>
+      <p>
+        The robot has two motors, two wheels, an ultrasonic sensor in front and
+        a line sensor at the bottom that detects the edge of the ring. It is
+        controlled by ATMega328, which is the brains of an Arduino. It is
+        programmed by detaching the ATMega328 chip and placing it into an
+        Arduino board. The power source is a 9V battery with a 5V regulator. The
+        final components are soldered together. The project file is{" "}
         <a
           href="https://1drv.ms/u/s!Arlw0YD7zqYNhlqdHT9PCcC2BQ83"
           target="_blank"
@@ -35,9 +48,12 @@ function Sumo() {
         alt="sumocad"
         src="https://sat02pap005files.storage.live.com/y4m62h6ZE3K-5bx-Jzn8wsfs1p20NPTL1aAUzOuk7eFWEnhPNfSNTumhMEOX-Fqf0kPwsHIN_R2mXn2UjBviiqyMprWZosY-PnQ2EhCaWzV-3m2CHk8TMLzONnmKRmoYysC0els7b7pA1CUZofOrwy0y6Bi1qqZgvEqTuu1OxFkQxjNppeNgVwAbR1y5_9oiF4n?width=1603&height=1131&cropmode=none"
       />
-      <div>The chassis of the robot was designed in Autodesk Fusion 360.</div>
+      <div>
+        The chassis of the robot was designed in Autodesk Fusion 360, then cut
+        out of sheet metal.
+      </div>
       <br />
-      <Gallery sources={sumoSources} />
+      <Gallery sources={sumoSources} captions={sumoCaptions} />
       <br />
       <iframe
         src="https://drive.google.com/file/d/1Oz7C7E_jRXC33XM6d53Jbn_yzI2ZYkBB/preview"
@@ -47,6 +63,7 @@ function Sumo() {
         allow="autoplay"
         allowFullScreen="true"
       ></iframe>
+      <div>Video of a sumo robot match.</div>
     </>
   );
 }

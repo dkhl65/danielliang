@@ -6,6 +6,11 @@ const wikispaceSources = [
   "https://sat02pap005files.storage.live.com/y4mn3WZG04DhqjgcT0MpPg8zlKpyOnj1Me-SqKc4yLXeQNCXdRIOvWXJU_buZR3rZNeyAZGKeaVRhpAVOWKCCEY1fon2CJlex6oIU4dfqCf9Jeaf6KMEyoOlfjXQsTy9wNtkrpMLSO73ecYERp-N1hG9Yb7v0H22oG_d2lqljK8Y5QbbVVHQj6TxjWSteoyjZhO?width=1711&height=1017&cropmode=none",
 ];
 
+const wikispaceCaptions = [
+  "The Simon page with code.",
+  "A page for the infrared signal receiver.",
+];
+
 function Wikispace() {
   return (
     <>
@@ -25,7 +30,7 @@ function Wikispace() {
         , which have pictures, words and code, but the background graphics are
         not visible.
       </p>
-      <Gallery sources={wikispaceSources} />
+      <Gallery sources={wikispaceSources} captions={wikispaceCaptions} />
     </>
   );
 }
