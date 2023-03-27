@@ -19,7 +19,7 @@ function Cpp() {
       <div className="content">
         <h1>C/C++</h1>
         <p>
-          I first learned C and C++ in grade 7 and 8 (2011 - 2013) for Arduino
+          I first learned C and C++ in Grade 7 and 8 (2011 - 2013) for Arduino
           using library books and online resources. I continued to use C in high
           school for microcontroller projects. I also took several university
           courses where I learned and used C and C++. I also used it during my

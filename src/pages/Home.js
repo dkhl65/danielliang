@@ -50,7 +50,7 @@ function Home() {
         simple webpages with UI elements such as buttons and forms.
       </p>
       <p>
-        For Grades 6 to 8 (2010 - 2013), I was in a regional program called
+        During Grade 6 to 8 (2010 - 2013), I was in a regional program called
         Sci-Tech. In Sci-Tech, technologies such as Lego robotics, video editing
         and animation are part of the curriculum, but not programming languages.
         I bought an Arduino starter kit from the school to use for the Arduino

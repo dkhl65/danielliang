@@ -17,8 +17,8 @@ function Java() {
           on Java for creating visuals. I formally learned learned Java in grade
           11 Introduction to Computer Science (ICS3U0) class, using Dr. Java
           IDE. I used it for school projects. In the summer of 2018, I
-          experimented with Android Studio, which uses Java and XML to make
-          Android apps. Below are my most significant work created with Java.
+          experimented with Android Studio, using Java and XML to make Android
+          apps. Below are my most significant work created with Java.
         </p>
         <CardBomberApp />
         <Projectile />
