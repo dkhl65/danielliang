@@ -13,7 +13,9 @@ function Python() {
         <p>
           I began learning Python on my own in 2019 to help my university's
           robotics team. I continued learning in the summer to develop my first
-          animated computer game.
+          animated computer game. I used Python for courses in my Artificial
+          Intelligence minor and for contribution to an open-source project on
+          GitHub.
         </p>
         <AIWeatherClassifier />
         <GoblinShooter />
