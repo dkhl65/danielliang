@@ -3,6 +3,7 @@ import TableOfContents from "../TableOfContents";
 
 import BlockchainSimulator from "./BlockchainSimulator";
 import Pathfinder from "./Pathfinder";
+import Pokemon from "./Pokemon";
 import OldFiles from "./OldFiles";
 
 function WebDevelopment() {
@@ -22,6 +23,7 @@ function WebDevelopment() {
         </p>
         <BlockchainSimulator />
         <Pathfinder />
+        <Pokemon />
         <OldFiles />
       </div>
     </div>
