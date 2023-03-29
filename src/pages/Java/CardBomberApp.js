@@ -47,7 +47,7 @@ function CardBomberApp() {
       <img
         alt="gamescreen"
         src="https://sat02pap005files.storage.live.com/y4mB156Ys-DZQWQJwHdFHKLHWN7jTkii4dRDar7zPmlrJ6cgOsWtc9TPbi4facwwP0C8EPQfY29JoqqHYoaXOXxUWo0qJ-jKpGUYCKQLV92Vs2W2EZCDxNpmo6XzxGRmLJqd0hqWMXaWtVn5HWHMO2VlQOeQdzAymnFgeko1MW_tEJ_YIOxOlpFwBGXCbZJp8Al?width=688&height=456&cropmode=none"
-        class="framed"
+        className="framed"
         id="gamescreen"
       />
       <div>

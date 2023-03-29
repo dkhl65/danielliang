@@ -28,7 +28,7 @@ function Gallery(props) {
           width={props.width}
           height={props.height}
           allow="autoplay"
-          allowFullScreen="true"
+          allowFullScreen={true}
         ></iframe>
       ) : (
         <img

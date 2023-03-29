@@ -52,7 +52,7 @@ function RemoteControlRobot() {
         width="800"
         height="450"
         allow="autoplay"
-        allowFullScreen="true"
+        allowFullScreen={true}
       ></iframe>
       <div>Video demonstration.</div>
     </>

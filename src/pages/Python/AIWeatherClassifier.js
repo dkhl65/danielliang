@@ -49,7 +49,7 @@ function AIWeatherClassifier() {
         width="800"
         height="450"
         allow="autoplay"
-        allowFullScreen="true"
+        allowFullScreen={true}
       ></iframe>
       <div>
         A live demonstration during the final presentation on images that the ML

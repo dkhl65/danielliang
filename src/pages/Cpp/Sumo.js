@@ -61,7 +61,7 @@ function Sumo() {
         width="800"
         height="450"
         allow="autoplay"
-        allowFullScreen="true"
+        allowFullScreen={true}
       ></iframe>
       <div>Video of a sumo robot match.</div>
     </>

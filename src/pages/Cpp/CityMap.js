@@ -118,7 +118,7 @@ function CityMap() {
         width="800"
         height="608"
         allow="autoplay"
-        allowfullscreen="true"
+        allowFullScreen={true}
       ></iframe>
       <div>
         A demonstration without commentary going through each feature of the map

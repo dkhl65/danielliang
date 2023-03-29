@@ -56,7 +56,7 @@ function Simon() {
         width="640"
         height="480"
         allow="autoplay"
-        allowFullScreen="true"
+        allowFullScreen={true}
       ></iframe>
       <div>Video of the the original setup.</div>
       <br />
@@ -66,7 +66,7 @@ function Simon() {
         width="800"
         height="450"
         allow="autoplay"
-        allowFullScreen="true"
+        allowFullScreen={true}
       ></iframe>
       <div>Video of the new setup.</div>
     </>

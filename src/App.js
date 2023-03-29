@@ -9,6 +9,19 @@ import Verilog from "./pages/Verilog";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
+  fetch("https://ipapi.co/json/")
+    .then((res) => res.json())
+    .then((data) => {
+      fetch("https://visitortracker.vercel.app/", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ ipaddr: data.ip, website: "danielliang" }),
+      }).catch((err) => console.log(err));
+    })
+    .catch((err) => console.log(err));
+
   return (
     <div className="App">
       <NavBar />

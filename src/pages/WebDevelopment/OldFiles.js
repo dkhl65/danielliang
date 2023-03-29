@@ -29,7 +29,7 @@ function OldFiles() {
         src="https://sat02pap005files.storage.live.com/y4mALRQ3qU47qetmFa3Io1gWKfkVnu3sXMA4HAUmabz3Z-YQNES0zu0xTOErlFzxZHuWlvoRtXyw9gKkcKJazfACAJjqtgK6t3AkWVr19-JeNXgb3qb81C9wUTjfXjyk1zykoOJeS7fH-cpd1z_ABfgbItqtStAKGSzZmH2bj_ISjP5n7gcTm5x-GvHJr-2ib5h?width=442&height=295&cropmode=none"
         width="442"
         height="295"
-        class="framed"
+        className="framed"
       />
       <h3 id="customized">Customized Page</h3>
       <p>
@@ -43,7 +43,7 @@ function OldFiles() {
         src="https://sat02pap005files.storage.live.com/y4mJ5bwciZs6ia-nZ0Uc6iRdr0deBtJheUTqGWK5uJa2j-crbxKH5eEq_6Xv_2vR9BvpdZ1jCtJvbReLHJJOymcE45ovCvSChvTcAv_-EgD26UUByG2FP3d9PeAAckicxMw4kN-WOzNQWdLgk8_HEvXA4xkTUSs3sTIVa3cRV8RbXiNRmYUXrcgtLwhs8UMAH-V?width=592&height=423&cropmode=none"
         width="592"
         height="423"
-        class="framed"
+        className="framed"
       />
     </>
   );
