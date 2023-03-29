@@ -35,7 +35,7 @@ function ClashOfClans() {
       </p>
       <img
         alt="plan"
-        src="https://sat02pap005files.storage.live.com/y4moTFvJK2INiO-0epSxRXrNJen4RDzfk46aTimjaYSrngo9osjnCAsVCmdrTtzwjKnchk0xWtGFtm8w-9oDSV8cB63t45sGJRD06uSS2LH-8RrSREGAGPotGTVxv7bNThrBpp2y2Ki6Xca6ifVEFAs0GnQ6D2xMSXsLCcGV0-f8f8xb-ttCXnyEqcYScRIKz3e?width=911&height=1040&cropmode=none"
+        src="https://sat02pap005files.storage.live.com/y4mFFN1mk1JyBZrU8XB15NkqiA6SmNr29SAjdlMZwN8_Y6VDcDSIIbfmnzFNsqU97W3_Gp_WK0jxG7vTO-_t_92_eKIngN7oPNJIvHym2siUeBmiVje7vi5iV0lZuSVLHzKlvZgFBVdO7CCKejSgl9l1Fdilc6aT_4q34eWlbhXzCdDV6MJ-2-4EScTElCozhSH?width=911&height=1035&cropmode=none"
         height="900"
       />
       <div>All 50 tiles have been used to plan a pattern.</div>
