@@ -11,12 +11,12 @@ const lineFollowingPictures = [
 ];
 
 const pictureCaptions = [
-  "Right side view.",
-  "Diagonal view.",
-  "Back view.",
-  "Left side view.",
-  "Front view.",
-  "Top view.",
+  <>Right side view.</>,
+  <>Diagonal view.</>,
+  <>Back view.</>,
+  <>Left side view.</>,
+  <>Front view.</>,
+  <>Top view.</>,
 ];
 
 const lineFollowingVideos = [
@@ -31,14 +31,29 @@ const lineFollowingVideos = [
 ];
 
 const videoCaptions = [
-  "Continuous single smooth line course.",
-  "Sharp angles with line breaks.",
-  "Sharp angles with line breaks (other direction).",
-  "Move to the correct stopping position based on number of perpendicular black lines at the start (1).",
-  "Move to the correct stopping position based on number of perpendicular black lines at the start (2).",
-  "Move to the correct stopping position based on number of perpendicular black lines at the start (3).",
-  "Move to the correct stopping position based on number of perpendicular black lines at the start (4).",
-  "Most complex course. Make turns based on signals given by the horizontal black tape.",
+  <>Continuous single smooth line course.</>,
+  <>Sharp angles with line breaks.</>,
+  <>Sharp angles with line breaks (other direction).</>,
+  <>
+    Move to the correct stopping position based on number of perpendicular black
+    lines at the start (1).
+  </>,
+  <>
+    Move to the correct stopping position based on number of perpendicular black
+    lines at the start (2).
+  </>,
+  <>
+    Move to the correct stopping position based on number of perpendicular black
+    lines at the start (3).
+  </>,
+  <>
+    Move to the correct stopping position based on number of perpendicular black
+    lines at the start (4).
+  </>,
+  <>
+    Most complex course. Make turns based on signals given by the horizontal
+    black tape.
+  </>,
 ];
 
 function LineFollowingRobot() {
@@ -46,12 +61,11 @@ function LineFollowingRobot() {
     <>
       <h2 id="linefollowing">Line Following Robot (2017)</h2>
       <p>
-        This is the final project of my grade 12 Computer Engineering Technology
-        course (TEJ4M0). The robot has two light sensors to help if follow a
-        black lines. It has to recognize black line patterns and navigate a
-        course. The robot is controlled by a PIC 24FV32KA microcontroller
-        programmed in C. I was able to complete all the challenges with my
-        robot.
+        This is the final project of my Grade 12 Computer Engineering Technology
+        course (TEJ4M0). The robot has two light sensors to help it follow a
+        black line. It recognizes black line patterns and navigates a course.
+        The robot is controlled by a PIC 24FV32KA microcontroller programmed in
+        C. I was able to complete all the challenges with my robot.
       </p>
       <p>
         The GitHub repository is{" "}

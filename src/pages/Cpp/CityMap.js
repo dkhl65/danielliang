@@ -11,12 +11,15 @@ const zoomLevelSources = [
 ];
 
 const zoomLevelCaptions = [
-  "Map of Toronto zoomed out.",
-  "Zooming in makes the 100 km/h highways visible in orange.",
-  "Major roads are visible in yellow",
-  "Zooming in some more.",
-  "Minor roads are now visible in grey.",
-  "Zooming in significantly shows buildings in purple and points of interest in yellow. A one-way street is indicated with an arrow.",
+  <>Map of Toronto zoomed out.</>,
+  <>Zooming in makes the 100 km/h highways visible in orange.</>,
+  <>Major roads are visible in yellow</>,
+  <>Zooming in some more.</>,
+  <>Minor roads are now visible in grey.</>,
+  <>
+    Zooming in significantly shows buildings in purple and points of interest in
+    yellow. A one-way street is indicated with an arrow.
+  </>,
 ];
 
 const exploreSources = [
@@ -31,16 +34,29 @@ const exploreSources = [
 ];
 
 const exploreCaptions = [
-  "The Help button shows instructions for using the navigation and search features.",
-  `Map features are colour coded depending on their catagory provided by the map data. 
-  Streets are coloured by speed limit, buildings are purple, water is blue, 
-  parks and forests are different shades of green.`,
-  "Intersections are used as starting and end points for navigation.",
-  "Beaches are coloured in beige.",
-  "Searching a partial name of an intersection will show it on the map at the appropriate zoom level.",
-  "Searching a partial name of a feature will show all features containing the key word.",
-  "Entering the cm keyword, followed by the bin file name will switch the map.",
-  "The bin file for Hong Kong, China has been loaded.",
+  <>
+    The Help button shows instructions for using the navigation and search
+    features.
+  </>,
+  <>
+    Map features are colour coded depending on their catagory provided by the
+    map data. Streets are coloured by speed limit, buildings are purple, water
+    is blue, parks and forests are different shades of green.
+  </>,
+  <>Intersections are used as starting and end points for navigation.</>,
+  <>Beaches are coloured in beige.</>,
+  <>
+    Searching a partial name of an intersection will show it on the map at the
+    appropriate zoom level.
+  </>,
+  <>
+    Searching a partial name of a feature will show all features containing the
+    key word.
+  </>,
+  <>
+    Entering the cm keyword, followed by the bin file name will switch the map.
+  </>,
+  <>The bin file for Hong Kong, China has been loaded.</>,
 ];
 
 const pathfindingSources = [
@@ -51,10 +67,23 @@ const pathfindingSources = [
 ];
 
 const pathfindingCaptions = [
-  "The Find Path button was clicked with a blank search bar, then the starting intersection was selected.",
-  "The path is highlighted in red after selecting the destination intersection. The estimated time is based on the speed limit and left/right turn penalties.",
-  "Two partial name intersections seperated by a comma can be used to find directions.",
-  "Show Directions button will give step by step directions with distance before turns.",
+  <>
+    The Find Path button was clicked with a blank search bar, then the starting
+    intersection was selected.
+  </>,
+  <>
+    The path is highlighted in red after selecting the destination intersection.
+    The estimated time is based on the speed limit and left/right turn
+    penalties.
+  </>,
+  <>
+    Two partial name intersections seperated by a comma can be used to find
+    directions.
+  </>,
+  <>
+    Show Directions button will give step by step directions with distance
+    before turns.
+  </>,
 ];
 
 function CityMap() {
@@ -62,7 +91,7 @@ function CityMap() {
     <>
       <h2 id="citymap">City Map (2019)</h2>
       <p>
-        This first part of this project is a GTK app I created with two other
+        The first part of this project is a GTK app I created with two other
         students for the Communication and Design (ECE297) course. The purpose
         of this app is to draw a map using data from{" "}
         <a
@@ -81,7 +110,7 @@ function CityMap() {
         GNU/Linux computers. We used functions from OpenStreetMap's API to
         interpret the data from bin files. We used a GTK based library written
         by the course instructors to draw the map features and create the user
-        interface. Collaborate was done with Git. Since all of the code and
+        interface. Collaboration was done with Git. Since all of the code and
         libraries are on the university's computer system, I cannot provide a
         Git link here.
       </p>
@@ -113,11 +142,10 @@ function CityMap() {
       <Gallery sources={pathfindingSources} captions={pathfindingCaptions} />
       <h3 id="videodemo">Video Demonstration</h3>
       <iframe
-        src="https://drive.google.com/file/d/15YlgMxjCh6RNn0AKn5czEt2JVZX0_1Zc/preview"
+        src="https://odysee.com/$/embed/@danielliang:d/city-map-video:0?r=DJ7HXqy3MzZAwt1J5s1yP4iL2RdsfXZk"
         title="videodemo"
         width="800"
         height="608"
-        allow="autoplay"
         allowFullScreen={true}
       ></iframe>
       <div>
@@ -132,7 +160,8 @@ function CityMap() {
         delivery truck can carry only a specified number of packages at a time.
         It needs to go to the pickup (depot) location before going the dropoff
         location. There is a 45 second compute time limit. The challenge is to
-        complete the deliveries as fast as possible.
+        complete the deliveries as fast as possible. The travel time is
+        calculated with road distance, speed limit and turn penalties.
       </p>
       <p>
         We modified our Dijkstra's algorithm from part 1. The original algorithm
@@ -148,7 +177,7 @@ function CityMap() {
         The second process is Multi-Start. The first phase starts at every depot
         and travels to the next best delivery location based on travel time. The
         best path from this phase is passed to the second phase, which does the
-        same thing, except that it has a 10% chance of going to the second best
+        same thing, except it has a 10% chance of going to the second best
         location instead of the best. There is potential to find a shorter
         overall path this way, even if one segment is longer. It repeats this
         ten thousand times.

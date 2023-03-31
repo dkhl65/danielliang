@@ -7,7 +7,7 @@ function CardBomberApp() {
       <p>
         Android app developing with Android Studio is a personal project that I
         took on in the summer break. This app is the mobile version of the{" "}
-        <a href="#cardbomber">Card Bomber</a> game which I made in grade 11.
+        <a href="#cardbomber">Card Bomber</a> game which I made in Grade 11.
       </p>
       <p>
         The text in the app is written in English, French, Simplified Chinese

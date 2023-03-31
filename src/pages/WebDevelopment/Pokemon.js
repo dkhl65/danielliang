@@ -25,7 +25,7 @@ function Pokemon() {
           target="_blank"
           rel="noreferrer"
         >
-          Github.
+          Github
         </a>
         .
       </p>

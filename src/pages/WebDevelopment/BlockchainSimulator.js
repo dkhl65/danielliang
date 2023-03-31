@@ -9,19 +9,27 @@ const networkSources = [
 ];
 
 const networkCaptions = [
-  `This is the home page of the app. 
-  The Background Info functionality gives quick access 
-  to some relevant information about blockchain technology.`,
-  `Clicking "Create Network" on the home page takes the user to this view. 
-  It asks the user is to input the simulation configurations. 
-  I created the user interface for this page.`,
-  `After selecting the settings it takes the user to the node selector page. 
-  This allows the user to select the distribution of nodes among the different continents.`,
-  `After selecting the node distribution, the values are stored into the Redux store 
-  and a new network is created with this configuration. 
-  The nodes are randomly generated according to the distribution in each continent. 
-  The user is able to simulate the network for a certain number of seconds or 
-  simulate it until a certain number of blocks are added to the longest chain.`,
+  <>
+    This is the home page of the app. The Background Info functionality gives
+    quick access to some relevant information about blockchain technology.
+  </>,
+  <>
+    Clicking "Create Network" on the home page takes the user to this view. It
+    asks the user is to input the simulation configurations. I created the user
+    interface for this page.
+  </>,
+  <>
+    After selecting the settings it takes the user to the node selector page.
+    This allows the user to select the distribution of nodes among the different
+    continents.
+  </>,
+  <>
+    After selecting the node distribution, the values are stored into the Redux
+    store and a new network is created with this configuration. The nodes are
+    randomly generated according to the distribution in each continent. The user
+    is able to simulate the network for a certain number of seconds or simulate
+    it until a certain number of blocks are added to the longest chain.
+  </>,
 ];
 
 const hostSources = [
@@ -31,24 +39,27 @@ const hostSources = [
 ];
 
 const hostCaptions = [
-  `This view provides a dropdown to allow the user to select a host that
-  was created during the network creation process. After selecting any
-  specific node, it shows the blockchain network from that node's
-  perspective. This includes a section to view the local version of the
-  chain, some host specific stats such as the location and role of the
-  host. The chain object shows the different blocks that are part of the
-  chain including all the details such as data and hash of each block.
-  This lets the user analyze the chain for different hosts and compare
-  them to get a better understanding of how the network behaves.`,
-  `The metrics dashboard allows users to view statistics related to the
-  current simulation in a tabulated form, and download it as a CSV. The
-  dashboard provides descriptions and values of configuration information
-  and statistics including: staking, voting power, leader election method,
-  anti-malicious algorithm, block size, number of nodes, number of
-  malicious nodes, throughput, finality, and nakamoto coefficient.`,
-  `Users will be able to upload previously downloaded CSVs to generate
-  comparison graphs to compare statistics between different network
-  configurations.`,
+  <>
+    This view provides a dropdown to allow the user to select a host that was
+    created during the network creation process. After selecting any specific
+    node, it shows the blockchain network from that node's perspective. This
+    includes a section to view the local version of the chain, some host
+    specific stats such as the location and role of the host. The chain object
+    shows the different blocks that are part of the chain including all the
+    details such as data and hash of each block. This lets the user analyze the
+    chain for different hosts and compare them to get a better understanding of
+    how the network behaves.
+  </>,
+  <>
+    The metrics dashboard allows users to view statistics related to the current
+    simulation in a tabulated form, and download it as a CSV. The dashboard
+    provides descriptions and values of configuration information and statistics
+    including: staking, voting power, leader election method, anti-malicious
+    algorithm, block size, number of nodes, number of malicious nodes,
+    throughput, finality, and nakamoto coefficient.`, `Users will be able to
+    upload previously downloaded CSVs to generate comparison graphs to compare
+    statistics between different network configurations.
+  </>,
 ];
 
 function BlockchainSimulator() {
@@ -89,7 +100,7 @@ function BlockchainSimulator() {
       <p>
         I set up commit hooks to lint and auto-format the code, and TypeDoc to
         generate documentation for the simulation logic classes. I designed and
-        implemented the simulation settings page. I coded the class the stores
+        implemented the simulation settings page. I coded the class that stores
         information about a host in the blockchain.
       </p>
       <h3 id="network">Network Setup</h3>

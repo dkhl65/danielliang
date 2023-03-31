@@ -10,11 +10,14 @@ const sumoSources = [
 ];
 
 const sumoCaptions = [
-  "Diagonal view.",
-  "Right side view.",
-  "Back view. The paper covers the sharp edges of the metal",
-  "Top view.",
-  "Front view. The plastic card provides an edge so the robot does not flip itself over when ramming another robot.",
+  <>Diagonal view.</>,
+  <>Right side view.</>,
+  <>Back view. The paper covers the sharp edges of the metal</>,
+  <>Top view.</>,
+  <>
+    Front view. The plastic card provides an edge so the robot does not flip
+    itself over when ramming another robot.
+  </>,
 ];
 
 function Sumo() {

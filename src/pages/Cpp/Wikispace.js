@@ -7,8 +7,8 @@ const wikispaceSources = [
 ];
 
 const wikispaceCaptions = [
-  "The Simon page with code.",
-  "A page for the infrared signal receiver.",
+  <>The Simon page with code.</>,
+  <>A page for the infrared signal receiver.</>,
 ];
 
 function Wikispace() {
@@ -16,7 +16,7 @@ function Wikispace() {
     <>
       <h2 id="wikispace">Wikispace (2012)</h2>
       <p>
-        In grade 7, I made a Wikispace for my Arduino projects and to help
+        In Grade 7, I made a Wikispace for my Arduino projects to help
         classmates who were also trying to use Arduino. Wikispace is like a
         website others can edit. Wikispace has closed down, forcing me to take
         my pages offline. The HTML files can be viewed{" "}

@@ -5,7 +5,7 @@ function IRRemote() {
     <>
       <h2 id="irremote">IR Remote (2012)</h2>
       <p>
-        This is a universal remote that records an IR signal, stores it in
+        This is a universal remote that records an IR signal and stores it in
         EEPROM memory. It can broadcast stored signals. I got source code
         online, then modified it to include a soft potentiometer to select the
         memory slot of the signal to broadcast. The project file is{" "}

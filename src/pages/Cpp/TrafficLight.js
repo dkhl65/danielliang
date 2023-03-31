@@ -5,7 +5,7 @@ function TrafficLight() {
     <>
       <h2 id="traffic">Traffic Light Model (2016)</h2>
       <p>
-        For my grade 11 Computer Engineering Technology (TEJ3M0) final project,
+        For my Grade 11 Computer Engineering Technology (TEJ3M0) final project,
         I made a model of a four way intersection that is controlled with a PIC
         24FV32KA microcontroller.
       </p>

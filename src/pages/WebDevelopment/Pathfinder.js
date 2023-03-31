@@ -11,12 +11,22 @@ const searchingSources = [
 ];
 
 const searchingCaptions = [
-  "The landing page of the app. The search bar can be used without logging in.",
-  "Courses can be found with the key word in the course title or description.",
-  "Courses can be found with their exact course code. Clicking on a course will take the user to its page",
-  "The About section of the course page displays information obtained from the pkl files.",
-  "The Requirements section links to important related courses.",
-  "The Reviews section displays ratings and reviews left by users.",
+  <>
+    The landing page of the app. The search bar can be used without logging in.
+  </>,
+  <>
+    Courses can be found with the key word in the course title or description.
+  </>,
+  <>
+    Courses can be found with their exact course code. Clicking on a course will
+    take the user to its page
+  </>,
+  <>
+    The About section of the course page displays information obtained from the
+    pkl files.
+  </>,
+  <>The Requirements section links to important related courses.</>,
+  <>The Reviews section displays ratings and reviews left by users.</>,
 ];
 
 const accountSources = [
@@ -33,16 +43,24 @@ const accountSources = [
 ];
 
 const accountCaptions = [
-  "To access all the features of our app, users need to sign up with an email address. Passwords are salted and hashed before being stored in the database.",
-  "The is the login form. JWT authentication is used.",
-  "The blank profile page is displayed after a succesful login.",
-  "A logged in user can add one review for any course.",
-  "A review consists of a rating out of 10 and a comment.",
-  "Users can deleted their own reviews.",
-  "Courses can be added to the cart.",
-  "A cart for each user is saved in the database.",
-  "The user can drag and drop courses into the schedule.",
-  "When the schedule is full, it tells the user that they can graduated. The data provided to us was insufficient to determine actual graduation eligibility for any specific degree.",
+  <>
+    To access all the features of our app, users need to sign up with an email
+    address. Passwords are salted and hashed before being stored in the
+    database.
+  </>,
+  <>The is the login form. JWT authentication is used.</>,
+  <>The blank profile page is displayed after a succesful login.</>,
+  <>A logged in user can add one review for any course.</>,
+  <>A review consists of a rating out of 10 and a comment.</>,
+  <>Users can deleted their own reviews.</>,
+  <>Courses can be added to the cart.</>,
+  <>A cart for each user is saved in the database.</>,
+  <>The user can drag and drop courses into the schedule.</>,
+  <>
+    When the schedule is full, it tells the user that they can graduated. The
+    data provided to us was insufficient to determine actual graduation
+    eligibility for any specific degree.
+  </>,
 ];
 
 function Pathfinder() {

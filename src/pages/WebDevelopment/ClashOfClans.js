@@ -12,7 +12,7 @@ function ClashOfClans() {
         tall grass tiles can be on the base at a time. Tall grass always spawns
         next to existing tall grass, ancient barbarian statue, or old barbarian
         statue. By forcing the tall grass to grow where desired using buildings,
-        walls, trap or decorations, a design can be drawn on the base.
+        walls, traps or decorations, a design can be drawn on the base.
       </p>
       <p>
         The tool is deployed to{" "}

@@ -7,11 +7,11 @@ function IRProximitySensor() {
       <p>
         An infrared phototransistor picks up infrared light from an adjacent IR
         LED that has bounced off an object. Black plastic from a garbage bag is
-        used to block visible light the the phototransistor and let infrared
+        used to block visible light to the phototransistor and let infrared
         through. The sensitivity is adjusted with the potentiometer and the
         piezo makes noise when an object is detected. This is an original
-        project idea that I thought, inspired by hand detectors on hand driers
-        in public washrooms. The project file is{" "}
+        project idea inspired by hand detectors on hand driers in public
+        washrooms. The project file is{" "}
         <a
           href="https://1drv.ms/u/s!Arlw0YD7zqYNhl6ipT5R-ZX0XKi5"
           target="_blank"

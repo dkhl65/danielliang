@@ -30,7 +30,7 @@ function AIWeatherClassifier() {
         </a>{" "}
         and personal photos were used for validation and testing. The training
         was done using cloud computing on Google Colab. A video demonstration of
-        the model working is show below.
+        the model working is shown below.
       </p>
       <p>
         We worked on this project using Google Colab but the files are shared on{" "}

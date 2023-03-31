@@ -5,7 +5,7 @@ function Rainbow() {
     <>
       <h2 id="rainbow">Rainbow Scratch (2012)</h2>
       <p>
-        A simple program I made on Processing, inspired by rainbow scratch
+        A simple program I made in Processing, inspired by rainbow scratch
         paper. The screen is initially black. By pressing R, G or B and dragging
         the mouse, a colourful gradient is drawn. Holding down R, G or B
         activates the large brush size. Holding E will erase what is drawn.

@@ -10,11 +10,11 @@ const remoteRobotSources = [
 ];
 
 const remoteRobotCaptions = [
-  "Diagonal view.",
-  "Right side view.",
-  "Back view.",
-  "Front view.",
-  "Top view.",
+  <>Diagonal view.</>,
+  <>Right side view.</>,
+  <>Back view.</>,
+  <>Front view.</>,
+  <>Top view.</>,
 ];
 
 function RemoteControlRobot() {
@@ -23,7 +23,7 @@ function RemoteControlRobot() {
       <h2 id="remote">Remote Control Robot (2018)</h2>
       <p>
         After completing my <a href="#linefollowing">line following robot</a>{" "}
-        project, I got to keep all parts of the robot except the programmer.I
+        project, I got to keep all parts of the robot except the programmer. I
         decided to replaced the PIC microcontroller with an Arduino Nano and
         added the IR decoder, as well as a second set of batteries dedicated to
         powering the motor. The robot is controlled with a Sony remote, has

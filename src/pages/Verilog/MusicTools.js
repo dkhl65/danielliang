@@ -7,8 +7,10 @@ const toneSources = [
 ];
 
 const toneCaptions = [
-  "The note G sharp / A flat on octave 4 is shown on the seven segment display.",
-  "The VGA monitor shows the note on the staff.",
+  <>
+    The note G sharp / A flat on octave 4 is shown on the seven segment display.
+  </>,
+  <>The VGA monitor shows the note on the staff.</>,
 ];
 
 const metronomeSources = [
@@ -17,8 +19,11 @@ const metronomeSources = [
 ];
 
 const metronomeCaptions = [
-  "The bpm number is shown on the seven segment displays.",
-  "The VGA monitor shows a scale, with tick marks every 10 bpm and a red line at the current setting. The names of the tempos are labelled.",
+  <>The bpm number is shown on the seven segment displays.</>,
+  <>
+    The VGA monitor shows a scale, with tick marks every 10 bpm and a red line
+    at the current setting. The names of the tempos are labelled.
+  </>,
 ];
 
 const tunerSources = [
@@ -27,8 +32,14 @@ const tunerSources = [
 ];
 
 const tunerCaptions = [
-  "A test with a tone generator at 1000 Hz, with correct frequency detected and shown on the seven segment displays.",
-  "The VGA monitor displays the closest octave and note at the detected frequency, with a red line indicating the offset in Hz.",
+  <>
+    A test with a tone generator at 1000 Hz, with correct frequency detected and
+    shown on the seven segment displays.
+  </>,
+  <>
+    The VGA monitor displays the closest octave and note at the detected
+    frequency, with a red line indicating the offset in Hz.
+  </>,
 ];
 
 function MusicTools() {
@@ -44,9 +55,9 @@ function MusicTools() {
       </p>
       <p>
         Since my partner and I have a background in music, we created three
-        tools for musicians. Inputs are from the switches and keys on the board,
-        as well as a microphone. The outputs are a speakers, seven segment
-        displays and VGA monitor screen.
+        tools for musicians. Inputs are from the switches and buttons on the
+        board, as well as a microphone. The outputs are a speakers, seven
+        segment displays and VGA monitor screen.
       </p>
       <p>
         We originally collaborated on a private GitHub repository. I create a{" "}
@@ -64,13 +75,13 @@ function MusicTools() {
         Pressing the first button will switch to tone generator mode. The tone
         generator mode plays a solid tone in the the frequency of a selected
         music note. The note and octave are selected using the switches in
-        binary format. Octave 0 to 8 are supported.
+        binary format. Octaves 0 to 8 are supported.
       </p>
       <Gallery sources={toneSources} captions={toneCaptions} height="742" />
       <h3 id="metronome">Metronome</h3>
       <p>
         Pressing the second button will switch to metronome mode. The metronome
-        makes a tapping noise at intervals specified by the bpm setting. The bpm
+        makes a tapping noise at intervals specified by the BPM setting. The BPM
         number is selected with the switches in binary format.
       </p>
       <Gallery

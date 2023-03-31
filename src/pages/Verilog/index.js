@@ -11,7 +11,7 @@ function Verilog() {
         <h1>Verilog</h1>
         <p>
           I learned Verilog in the Digital Systems course (ECE241) in my second
-          year of university. It is a hardware description language, which mean
+          year of university. It is a hardware description language, which means
           it describes a digital circuit and it is translated into hardware by
           the compiler. It requires the knowledge of digital circuit components
           such as logic gates, registers and memory.
