@@ -1,6 +1,7 @@
 import React from "react";
 import TableOfContents from "../TableOfContents";
 
+import JobTracking from "./JobTracking";
 import BlockchainSimulator from "./BlockchainSimulator";
 import Pathfinder from "./Pathfinder";
 import Pokemon from "./Pokemon";
@@ -22,6 +23,7 @@ function WebDevelopment() {
           Angular JS and libraries such as jQuery. I continued using JavaScript
           and learned React JS during my fourth year of university.
         </p>
+        <JobTracking />
         <BlockchainSimulator />
         <Pathfinder />
         <Pokemon />

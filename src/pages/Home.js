@@ -155,6 +155,11 @@ function Home() {
         documentation and created a web app using React, TypeScript and Redux
         for simulating proof-of-stake.
       </p>
+      <p>
+        From June 2023 to August 2023, I took the Web Development using React
+        and JSX course (3704) from the University of Toronto School of
+        Continuing Studies.
+      </p>
     </div>
   );
 }
