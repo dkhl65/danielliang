@@ -122,11 +122,11 @@ function Home() {
       </p>
       <p>
         From July 2020 to August 2021, I did my Professional Experience Year
-        (PEY Co-op) at Analog Devices. I learned and used modern JavaScript
-        libraries and frameworks, such as Angular JS, Express JS, MongoDB and
-        jQuery. I managed an EC2 server on Amazon Web Services (AWS). I used C
-        programming for embedded Linux applications. On my time off, I used
-        jQuery to create some personal projects.
+        (PEY Co-op) at Analog Devices as a software engineer. I learned and used
+        modern JavaScript libraries and frameworks, such as Angular JS, Express
+        JS, MongoDB and jQuery. I managed an EC2 server on Amazon Web Services
+        (AWS). I used C programming for embedded Linux applications. On my time
+        off, I used jQuery to create some personal projects.
       </p>
       <p>
         In my fourth year of university (2021 - 2022), I took Software
@@ -158,7 +158,26 @@ function Home() {
       <p>
         From June 2023 to August 2023, I took the Web Development using React
         and JSX course (3704) from the University of Toronto School of
-        Continuing Studies.
+        Continuing Studies. Although I have used React before, I gained a deeper
+        understanding of React through this course. I learned about class
+        components and functional components, lifecycle functions and hooks, and
+        transferring data between parent and child components using props and
+        callback functions. For my final project, I created a weather app.
+      </p>
+      <p>
+        From July 2023 to August 2023, I worked at a non-profit organization
+        called Helping Hands as a software developer. My position was funded by
+        Canada Summer Jobs. I worked on{" "}
+        <a href="https://helpinghandsapp.com/" target="_blank" rel="noreferrer">
+          their website
+        </a>
+        , where I added new content, improved navigation and formatting. I
+        developed their app for helping youth connect with non-profit
+        organizations to find volunteer opportunities, using Ruby on Rails,
+        React and PostgreSQL. I contributed to documentation of the app and set
+        standards for code style. I improved their AWS architecture by creating
+        accounts for individual users in IAM Identity Center and using
+        CodeDeploy to deploy their website.
       </p>
     </div>
   );
