@@ -1,4 +1,3 @@
-import React from "react";
 import Gallery from "../Gallery";
 
 const sources = [
@@ -106,7 +105,7 @@ function WeatherApp() {
         </a>
         .
       </p>
-      <h3 id="weather-function">Function of the App</h3>
+      <h3 id="weather-function">Features of the App</h3>
       <Gallery sources={sources} captions={captions} />
       <h3 id="weather-errors">Error Handling</h3>
       <Gallery sources={errorSources} captions={errorCaptions} />

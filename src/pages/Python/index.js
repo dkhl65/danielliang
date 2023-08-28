@@ -1,6 +1,4 @@
-import React from "react";
 import TableOfContents from "../TableOfContents";
-
 import AIWeatherClassifier from "./AIWeatherClassifier";
 import GoblinShooter from "./GoblinShooter";
 

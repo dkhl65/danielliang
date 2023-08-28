@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Gallery(props) {
   const [index, setIndex] = useState(0);

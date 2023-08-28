@@ -1,6 +1,4 @@
-import React from "react";
 import TableOfContents from "../TableOfContents";
-
 import CityMap from "./CityMap";
 import RemoteControlRobot from "./RemoteControlRobot";
 import Sumo from "./Sumo";

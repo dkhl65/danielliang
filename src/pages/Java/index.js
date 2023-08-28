@@ -1,6 +1,4 @@
-import React from "react";
 import TableOfContents from "../TableOfContents";
-
 import CardBomberApp from "./CardBomberApp";
 import Projectile from "./Projectile";
 import CardBomber from "./CardBomber";

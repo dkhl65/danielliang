@@ -1,6 +1,4 @@
-import React from "react";
 import TableOfContents from "../TableOfContents";
-
 import WeatherApp from "./WeatherApp";
 import JobTracking from "./JobTracking";
 import BlockchainSimulator from "./BlockchainSimulator";

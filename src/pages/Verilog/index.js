@@ -1,6 +1,4 @@
-import React from "react";
 import TableOfContents from "../TableOfContents";
-
 import MusicTools from "./MusicTools";
 
 function Verilog() {
