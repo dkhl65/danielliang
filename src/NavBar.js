@@ -38,7 +38,7 @@ function NavBar() {
       </div>
       <div className="external">
         <div>
-          <a href="mailto:dan.liang@mail.utoronto.ca">
+          <a href="mailto:daniel.kh.liang@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} size="xl" />
           </a>
         </div>

@@ -22,9 +22,9 @@ function Home() {
       </p>
       <div className="contact">
         <p>
-          <a href="mailto:dan.liang@mail.utoronto.ca">
+          <a href="mailto:daniel.kh.liang@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} size="xl" />{" "}
-            dan.liang@mail.utoronto.ca
+            daniel.kh.liang@gmail.com
           </a>
         </p>
         <p>
