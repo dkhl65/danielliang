@@ -178,6 +178,30 @@ function Home() {
         accounts for individual users in IAM Identity Center and using
         CodeDeploy to deploy their website.
       </p>
+      <p>
+        From September 2024 to May 2025, I continued to work for Helping Hands
+        on a part-time basis. I updated the website and created new pages,
+        ensuring accurate information and improved user navigation. I also
+        worked on some non-technical tasks such as bookkeeping.
+      </p>
+      <p>
+        From June 2025 to August 2025, I worked full-time again as a software
+        developer for Helping Hands, funded by Canada Summer Jobs. The
+        documentation that I wrote during my first work term helped a new
+        developer onboard and get familiar with the code base quickly. A lot of
+        progress was made on the volunteer opportunities app, including
+        searching features, account confirmation emails sent through Amazon
+        Simple Email Service and deploying it to{" "}
+        <a
+          href="https://app.helpinghandsapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          app.helpinghandsapp.com
+        </a>{" "}
+        on an EC2 instance using Nginx and Passenger. I migrated their website
+        from EC2 to Amplify, improving CI/CD and reducing costs by 50%.
+      </p>
     </div>
   );
 }
