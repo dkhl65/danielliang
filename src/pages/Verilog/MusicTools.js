@@ -1,8 +1,8 @@
 import Gallery from "../Gallery";
 
 const toneSources = [
-  "https://sat02pap005files.storage.live.com/y4miFKfteoig3fknAZJSHIe4vxnR2p7GLxQ4YjM-_Ra03RKbM9o0KCZzfX2gNIy6mplzqE1CcVZOQt_VqEAHUaEwjXIcFULPswlDyuwHAvCOb92aKpOf1Rpy9KN6iQOmevdPORTYA8Gtne8opWNm3IjELHa7s6GehRHKF-j9dKb1TRu3Wo7Wxs1l4xGA1pRcrV5?width=3218&height=2386&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4mu46XNmoHwOSwMWaKU4RM7ZCkIPwBlCJjU5XInl0NCeNfPktIc12QkcWcIU-WIC6YS10rwwYC2hb5bcf2QdacVxpTP_Ky0B-p0OgBCxYvZ5BkNmWnkDV_KykPJCVsCA0SOuKOBKZMOYM4lJhChARMuxBP5UEIhcX-xZPMjm_imj-LFRmxfVUTpzS7ZFLenSjh?width=3264&height=2448&cropmode=none",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANcSYAAAAAAMulNSqeajXh6X4?width=3218&height=2386",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANciYAAAAAANt_HbEJjcHBNxc?width=3264&height=2448",
 ];
 
 const toneCaptions = [
@@ -13,8 +13,8 @@ const toneCaptions = [
 ];
 
 const metronomeSources = [
-  "https://sat02pap005files.storage.live.com/y4mTomVe0dOKLSLn-3ZMXiyXHBP5Wbvrc0A4MQM7fZoQ7pN9jgb_fqoCtxBsgIa6fTK4bUoHsaioFHu19_NTF4yOCrVxHOTAJbqurE8juAjq-RGzS4P_3kKAwiHL6tiKwD62oUPGf3nuq1mZe1hUNyIOWeC0gpblrE9pBOJlcdDyGtW63YH66i6J9vrAi2BLgSB?width=3152&height=2290&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4mlLjnzH6c_aam5fJRjnDBOTOafPnCmSxzkuIwRTgIbH5vGYlIqAgKcwZ3-3Au5xUPEISEByeElyRsvl0z0PQl42Em9zU7SeRWZWFzyaIlH3T1PlzpMXr8IVTlVVG237s_2Hvpunhis8LshYz-lnCG97amHxRL69_iiSLTHBlXh4i1CKtkInXVTsuk98ObYUU_?width=3264&height=2448&cropmode=none",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANbyYAAAAAAHdMyU1aWnJYOO0?width=3152&height=2290",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANcCYAAAAAAJU8lgO-hMc78gg?width=3264&height=2448",
 ];
 
 const metronomeCaptions = [
@@ -26,8 +26,8 @@ const metronomeCaptions = [
 ];
 
 const tunerSources = [
-  "https://sat02pap005files.storage.live.com/y4m-D7cnkq1V_oAT-q8TEWCooFpJTiFmd52dIwgJQ9ckGNSiFaK9gxSkOuupCmFCcqDo5mz315iLNE3bES1-lkhEweVaj_LI4g1jyuu9Fy8zecwxK5E2NTqHoqwhy3d8rWJgbsUATb40kp9UaqvozYDpTcsU8rPzP-KxptYEOnIbQgACwC7p2xubqTrd9bXtehj?width=3264&height=2448&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4mC7kURqV4EcI0eNEaTGPB-VLeHA-c8NwZPNKlzHPgMk6YGhP-rV0q_Ec1D3hRM2JvkTTupVERqLMio1pQw2kfnYVowHELmCG7Qfxwd2qR-TWtFZica5sV4FjAoqRHfSMiBnwFP3FLHz1mJQYfJ3SLxNR4rbXlMSWfUe3UlNNnQ0pQedVMBiuTCQoEYNXSmATl?width=3264&height=2448&cropmode=none",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANdCYAAAAAAHnxzXydFD-g7TQ?width=3264&height=2448",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANdSYAAAAAAGr9LRVRZD0G3rM?width=3264&height=2448",
 ];
 
 const tunerCaptions = [

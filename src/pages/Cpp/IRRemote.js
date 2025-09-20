@@ -18,19 +18,19 @@ function IRRemote() {
       </p>
       <img
         alt="irremote"
-        src="https://sat02pap005files.storage.live.com/y4m08rsw32YnJaFvhZn_1aaNPPWNKnXRxFEb1KKB1BPH3lrEIRwWgT-CvKLVPVXOU4fbxzrD0Xh1sq4DeQ5sNKmHCmwC_Qr_4k4LdMNjuHgVkXwcDgwRd_Tzys_u9rqFUlhLC2KXeMFyJ-PsIzvrfTLhpVXLD-8DjRGu3XmSuYLpfIIzKxcKvNwlBt7XmdtwXa6?width=2592&height=1944&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANiyYAAAAAAIPxWK9i-TRti70?width=2592&height=1944"
       />
       <div>The breadboard setup with Arduino.</div>
       <br />
       <img
         alt="irremotecircuit"
-        src="https://sat02pap005files.storage.live.com/y4mBY-0tYzmne6X_pB9ZdKa8har4KWjj84BJ6vbhPrzZXdCmPQpIgKKQMJe6aF2V_B_gLFmZbnOIJbX2X3mwUDFdPwi-qJ9rr_oufG5rGlgYUSt5KAC0q0eZMHik1_N-FHBaLKbAGPQR71PIrVXRKk2Mv2qQQkt84AJQzPfhhGZU7ztN-lfqnROyRlPlOweX7Ji?width=849&height=609&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANnSYAAAAAAFBsR6zmTm4UbWM?width=951&height=614"
       />
       <div>Breadboard setup drawn in Fritzing.</div>
       <br />
       <img
         alt="irremoteschematic"
-        src="https://sat02pap005files.storage.live.com/y4mVRmOwjjOyZodFyBR9xXNvR5icLNLaS1od-m3lHBN8Ou5RANdeMEjtb0EYra7OVNc0EwqG_lmWbmbCZNLws5SAiyePuOmsxyqH4BIg1wLT8fbcxoGlARNSvUw1ZSEt3mZyYC_VEYiTn9WHJi7EB28g_NPHIilAUcRo8jm9eNk5W6GeDj58neyGuJnRp8h3FtB?width=990&height=564&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANoCYAAAAAANT7A3lPjy9GTdc?width=990&height=564"
       />
       <div>Schematic drawn in Fritzing.</div>
     </>

@@ -32,19 +32,19 @@ function Simon() {
       </p>
       <img
         alt="simonphoto"
-        src="https://sat02pap005files.storage.live.com/y4m4NdgpW6lqU6zJTzYVGftj3KIHPBjOrQ0DdOmJhOPOo6ZJpmeZ0P80AtpovD-yx2tngLp9qQivwKHDgkkg6xGjswQVEpHkfhcVowUbOORN4ufkC09SGaK5mjwuymEUnTvGtlFXrBhK8HiwBSvZPk1-_dOddq2T-_kIccpbxPgn3worHIw2k21XfB5tga9U3vP?width=3264&height=2448&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANaCYAAAAAAO6KVxGhWPQmSOA?width=3264&height=2448"
       />
       <div>New setup using ATtiny84.</div>
       <br />
       <img
         alt="simoncircuit"
-        src="https://sat02pap005files.storage.live.com/y4mPbUg2t8chqIWGI7G8Q5rXoDyzd3XqzUOxmYIaAfG3EFG0sS39SDMUHdIQ235lso0RRowikn_sTYtu2-gdMN5QDLChKAULx6rz_ToLFstyaeQXW5eEfvxPKhMAooAGRwTgJ5KwploExrwR7eC6SmJarLDZCDU_1XVepBNk9ND3SOKQPn2qrEyhYwybw_fHuF1?width=845&height=581&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANeiYAAAAAAOe-wT2_Z45pVqE?width=845&height=581"
       />
       <div>Original circuit drawn in Fritzing.</div>
       <br />
       <img
         alt="simonschematic"
-        src="https://sat02pap005files.storage.live.com/y4mEQMSGYFThzmgoxWp5yE3kQqCiFKbkn5r9UqPVUgpvkz1YromV5ZA8cWc3gY218nkesmHSgVlxkfhznc-SsTi-fn57e8NIylLt32e7tGfDIXzqPR8awv8yPugKYkLA4qs0v8cjps0NbwRUJpV-xF-w72azhFTNLvjMRop5yzIt7EcZfuEFX9lP1ySRqX_wS2-?width=867&height=561&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANeSYAAAAAALkRRCkzoS_P6uQ?width=867&height=561"
       />
       <div>Original schematic drawn in Fritzing.</div>
       <br />

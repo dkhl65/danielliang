@@ -49,7 +49,7 @@ function Projectile() {
       <br />
       <img
         alt="projectile"
-        src="https://sat02pap005files.storage.live.com/y4mx0epQMhlW9QeBU1BLhVWh_zn0rUg4Yocbk7hw_OwqCfZrZ8dXvqqnm_9FappBQkR28NiVrR1faUMyodcrMziCWx-KzUGWiRmvIDT9-usj3bZoVSVMGSH15BRpvLyxxiaw913dmDmUvOyslFPriTNaiQPxX_mwEMd0A1KNuMviKedBr_JYBvcf6TKwxoO-_ag?width=931&height=539&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANjSYAAAAAABIafnG53eYAwd4?width=931&height=539"
       />
       <div>
         An example using the Default simulation mode. The Current Values are

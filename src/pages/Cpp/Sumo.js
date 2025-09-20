@@ -1,11 +1,11 @@
 import Gallery from "../Gallery";
 
 const sumoSources = [
-  "https://sat02pap005files.storage.live.com/y4mf_9epOmBDcqx0DhomsfM6rfpMfdmRy8zzSh-hYNvoOSSs1V6755Ehn09yrP7OHR_ZT3ORIMUk4WX3Z7X2rIPbTCXbLRFv5rMUGTCfLRfPBjCvTPj9h3ZPyG_gZHcauwLn2sYDbe4RM_lxogjzp4Vp7RRxEC69oKgOgJTPPtx0t-zMBZOsu5mDr1KSe0LoKFH?width=3264&height=2448&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4mrircDQFjR9tdHdBifYmXzrLYTkbZzgubR7GNHzRA0DaKVVMygCUdGR5iYpsiYx5LO_GviDVOyzastEMop2kP6-oK6I0C9D7ivTm3fSPMnjXaLFTdU-yYl6MOORMvK_cDILaP2nRPHcONKSFOdBEZuZgt6AVU58kS9akIbYd-PJaLsxnoUWzag8TIU_ojfID-?width=3264&height=2448&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4m_4SI8Tc_r1SzZCo42aRoi33AUW9tvyJDv3fikRefMrKEs_ZIUzZtogoiB6geAG8kYD5QyRRGvToAepNEQEo0h5F4Kc5YJOq4r9j1EH8Hz24Fy2fzMH9NzuxyoonaJwxEeuA10WNbQyjfFOVUWFiC95RWDoUdTBpOtnReH2Wq30dXKR-84hCRDrKja7dCPRgn?width=3264&height=2448&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4mTaqD8x3r4AKANBRqtymskCUKFsf7-C2eVgV-Rv0WfL8M1FPhQPZ4B1OHU4GuxAEEM_wcyBt_OaxTutAysoo9JVrJn2Zydsr8wk6NrruhRj8F0ocYr1e5vRpkFE1iWtZ6m0deEW0xzNSkZ6hs-ddij_c_tgdHQh1xnchJSjM9qqoOzY4-_gIznUfyIzYfejnv?width=3264&height=2448&cropmode=none",
-  "https://sat02pap005files.storage.live.com/y4mtOFmclDXT3NpXQSclrc8fH7P9cz7IX7SVraA3XbZ4VTtQsD-gLzYVwHvGh71ujBxfHKtYKNDK9eC5Co4Oojt8KByhK_uMHnO-zIwmpt6ZDIVLN3DSfJvdp5FftVqHZ0RSlYgTrJJ8jhxy80SN9u3IZc27mg4x8zmq7S--snFzirxIT71B1pCcXlRDXEtlQT8?width=3264&height=2448&cropmode=none",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANkiYAAAAAAHGo5iEHyN3P2w8?width=3264&height=2448",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANlCYAAAAAAG-OyN_rBb7f2EY?width=3264&height=2448",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANlSYAAAAAANA-yT5HAqQedGE?width=3264&height=2448",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANliYAAAAAAOVNUNNIP6Z9vX4?width=3264&height=2448",
+  "https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANkyYAAAAAAJmQpeI84x2D5Iw?width=3264&height=2448",
 ];
 
 const sumoCaptions = [
@@ -48,7 +48,7 @@ function Sumo() {
       </p>
       <img
         alt="sumocad"
-        src="https://sat02pap005files.storage.live.com/y4m62h6ZE3K-5bx-Jzn8wsfs1p20NPTL1aAUzOuk7eFWEnhPNfSNTumhMEOX-Fqf0kPwsHIN_R2mXn2UjBviiqyMprWZosY-PnQ2EhCaWzV-3m2CHk8TMLzONnmKRmoYysC0els7b7pA1CUZofOrwy0y6Bi1qqZgvEqTuu1OxFkQxjNppeNgVwAbR1y5_9oiF4n?width=1603&height=1131&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANfSYAAAAAANnivJkXHOSSNJQ?width=1603&height=1131"
       />
       <div>
         The chassis of the robot was designed in Autodesk Fusion 360, then cut

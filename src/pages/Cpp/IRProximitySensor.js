@@ -21,19 +21,19 @@ function IRProximitySensor() {
       </p>
       <img
         alt="irproximity"
-        src="https://sat02pap005files.storage.live.com/y4mSAkLXJblSuy4QUKa9OhPCpYsQfpfc_iFXnEu57LT1zkTD7czAXq2lSIMYg_eJvefptLynk3xvbwbIasa9FxlqlV9QGc-Zr3QlfnIswJN2dP8FP7LoDKh3XvMp00Yz90eFglC-O5XgI4P0hMLTpR8weXArq7m8A6AU6uFv_SoZ1dIpp0GnjHKk2f8tFLbLWlk?width=2592&height=1944&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANiiYAAAAAAG_Cipd-5aT9lsw?width=2592&height=1944"
       />
       <div>The breadboard setup with Arduino.</div>
       <br />
       <img
         alt="irproximitycircuit"
-        src="https://sat02pap005files.storage.live.com/y4mDixt5VIJJojq6JgRQl1tYSYZYWAJ8BEGskK0MIwE227apyd2PM4JPCWFicff7itDcRs73SH1-fsjwX0cw169slP7pfEJN7ietIkZXl5FGhus2A8QVPr3AKL_1-DHuDyF1UwTighic1l0t7ZHEp48XADvRNCASicfGMmPjjOWzB88LaIn0LghO9wxOrlf5pao?width=951&height=614&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANnSYAAAAAAFBsR6zmTm4UbWM?width=951&height=614"
       />
       <div>Breadboard setup drawn in Fritzing.</div>
       <br />
       <img
         alt="irproximityschematic"
-        src="https://sat02pap005files.storage.live.com/y4mnC2MQZ-pgcXR1GJL82OMvJ82zDNI5UVdMZ2HN1pQNObO-UkYv92rVE-aMZyG1jrXwecQ8QXlrN1jeDVJWPYzzpUvowBDweMXDc-7crymBYXhjtEcmMr87sFnZA2hfMfpHxfb1_H75RcBk8jbsdVphflGwoKFCwfgzzFaLkFYp3T24QFoieH8_7AjgKSsZV8J?width=906&height=670&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANoCYAAAAAANT7A3lPjy9GTdc?width=990&height=564"
       />
       <div>Schematic drawn in Fritzing.</div>
     </>

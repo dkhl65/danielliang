@@ -35,15 +35,15 @@ function TrafficLight() {
       </p>
       <img
         alt="trafficstreet"
-        src="https://sat02pap005files.storage.live.com/y4msyvRhEhe3oWcLXfwXIdzeuShDxKDxwhV40qilfbAHRNEeJ9E1TmpNI1dgRsnPTLsAIZ1eYv-grddieMXyHIjjz4l-MXxkgbSH2oRXqiGeNt7FvwPT3jSXPXTpN8Off9R1Jc4K7CyZFVTxXH1EhzaFMqPzgSt9_patu7OhRTPoNHbBhDedUR8ZFPlbmaQUQYK?width=3264&height=2448&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/IQS5cNGA-86mIIANjiYAAAAAAZ5V-ePzJLW-DXeb6Il5Ab8?width=3264&height=2448"
       />
       <img
         alt="trafficmodel"
-        src="https://sat02pap005files.storage.live.com/y4mJwzzIUD5B560IrqwRr46awGEmbJsUFhhkmRb5qRiNmu6jAi-OIKYWl18IW-e14oC0phZedI9tmT0-VHeBzb_SEYwpdi3wpukgBoqQ-CQi4F_zoiZh2Oe8sXrNYevOUjkWhhTlFyv9bFLTCU1_Qj8OwOVAQinNP5Z-t-LIIAKug7nrAU-KVo-GWG0qzm30LIO?width=3264&height=2448&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/IQS5cNGA-86mIIANjCYAAAAAAZCBa6E6ehzTSAezGOb4pg8?width=3264&height=2448"
       />
       <img
         alt="trafficcircuit"
-        src="https://sat02pap005files.storage.live.com/y4mJ8fTkWTAMpOtc0SbgEE4L6Nxdbdly64BGvJvMNSxk2MmwWtzMvbum0djIQWxRgKTKhbL9jUfz0wRdsL_ASxUpY_dqT1FNNaz5dqmYsG3Q-E1-GRnCqyRh3s0i0ztrnLYKkesBMK7gZ6GwrLbVCaL4SrjvLuIAX6h_UDNU9b5YYL7WYO2sD5KGkEX2ZKbJCk5?width=2448&height=1836&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/IQS5cNGA-86mIIANkCYAAAAAAZ5TyMAVfnHEhnCRLhQdpTo?width=3264&height=2448"
       />
     </>
   );

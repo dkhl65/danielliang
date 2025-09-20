@@ -35,7 +35,7 @@ function CardBomberApp() {
       </p>
       <img
         alt="cardbomberapp"
-        src="https://sat02pap005files.storage.live.com/y4mzMyq1yYYvYFawtuUMlMAjZIs2Q-om6xSogpZ65PqQx-cZMwdp5YTEZwd7EdlcBkksy3hlhxZKG-FXnf7S7SKNPmUqHEmMhCHqM094zeCfwIsdCTwaErJSdcQw6axCGxq98yj7UgxlumstswdNvdXVvr7NyFOL3KW3rYx4W3dhSiQtagFSgIuauvx7XVW94El?width=2607&height=1682&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANVSYAAAAAAMVdKTJLPRSP1pQ?width=2607&height=1682"
       />
       <div>
         This is the home screen of the app, displayed inside an Android
@@ -44,8 +44,7 @@ function CardBomberApp() {
       <br />
       <img
         alt="gamescreen"
-        src="https://sat02pap005files.storage.live.com/y4mB156Ys-DZQWQJwHdFHKLHWN7jTkii4dRDar7zPmlrJ6cgOsWtc9TPbi4facwwP0C8EPQfY29JoqqHYoaXOXxUWo0qJ-jKpGUYCKQLV92Vs2W2EZCDxNpmo6XzxGRmLJqd0hqWMXaWtVn5HWHMO2VlQOeQdzAymnFgeko1MW_tEJ_YIOxOlpFwBGXCbZJp8Al?width=688&height=456&cropmode=none"
-        className="framed"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANuiYAAAAAAHqVK0X5txzU7Lk?width=688&height=456"
         id="gamescreen"
       />
       <div>

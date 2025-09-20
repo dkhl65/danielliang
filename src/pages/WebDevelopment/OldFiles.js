@@ -24,7 +24,7 @@ function OldFiles() {
       </p>
       <img
         alt="Number Guessing Game"
-        src="https://sat02pap005files.storage.live.com/y4mALRQ3qU47qetmFa3Io1gWKfkVnu3sXMA4HAUmabz3Z-YQNES0zu0xTOErlFzxZHuWlvoRtXyw9gKkcKJazfACAJjqtgK6t3AkWVr19-JeNXgb3qb81C9wUTjfXjyk1zykoOJeS7fH-cpd1z_ABfgbItqtStAKGSzZmH2bj_ISjP5n7gcTm5x-GvHJr-2ib5h?width=442&height=295&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANiCYAAAAAAKRstSHIp9s_lew?width=442&height=295"
         width="442"
         height="295"
         className="framed"
@@ -38,7 +38,7 @@ function OldFiles() {
       </p>
       <img
         alt="Customized Page"
-        src="https://sat02pap005files.storage.live.com/y4mJ5bwciZs6ia-nZ0Uc6iRdr0deBtJheUTqGWK5uJa2j-crbxKH5eEq_6Xv_2vR9BvpdZ1jCtJvbReLHJJOymcE45ovCvSChvTcAv_-EgD26UUByG2FP3d9PeAAckicxMw4kN-WOzNQWdLgk8_HEvXA4xkTUSs3sTIVa3cRV8RbXiNRmYUXrcgtLwhs8UMAH-V?width=592&height=423&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANhyYAAAAAAHob9U7kho2p0p8?width=592&height=423"
         width="592"
         height="423"
         className="framed"

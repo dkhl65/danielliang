@@ -22,7 +22,7 @@ function Rainbow() {
       </p>
       <img
         alt="rainbow"
-        src="https://sat02pap005files.storage.live.com/y4mDE6A5GfZe3KHjy8ctte5g4P7LQQkkVx_m-jjm3Vd0cRePMMxyxqvvOwM2BPKKmnCHEnToRFqv2AXT0XbuldGL94cWQ6enLxgAl_RBfm7fZh21mHWXAuKWcMqnrRbA9HbMl6jR907spVctjddlTE9sb20Fqn65y88NmsKsrOCoHEgYAbOLN2deBodHwT2gZqM?width=800&height=800&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANkSYAAAAAAAicC4EDHrIhjJE?width=800&height=800"
       />
       <div>A donut drawn in my program.</div>
     </>

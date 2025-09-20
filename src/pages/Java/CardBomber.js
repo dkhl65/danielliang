@@ -27,7 +27,7 @@ function CardBomber() {
       </p>
       <img
         alt="cardbomber"
-        src="https://sat02pap005files.storage.live.com/y4m6K_Sn-hXWGow9dz7No3zQKvn9ystBDw9MUyIp3Wc53lbrH2mxBaNbHTCgtVu3fipVXoQdp-p53Nb35LZ0lb-1DOjHQf8fh_oCybXIFmRcHpRQ57C_Eszke28BJn-mzIBc4EbIEIPGFoVNu4y3xiEieE8Fk7zne8sPQ4wCYJi8su1gKjKEqczzLqNkO4HKYDr?width=672&height=590&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANjyYAAAAAAPk-1-h_8MQCeiE?width=672&height=590"
       />
       <div>The home screen of the program.</div>
     </>

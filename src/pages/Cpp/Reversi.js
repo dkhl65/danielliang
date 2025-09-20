@@ -27,13 +27,13 @@ function Reversi() {
       </p>
       <img
         alt="reversiterminal"
-        src="https://sat02pap005files.storage.live.com/y4mvZRfUmXVQtSAYSRa0MLKdNgSFHlXemjBCWqW57mSntpn5z_Y5e3Y9rTwiLXdLSCLJqT1e3odsrxz8bhDlftoLG_SFl73cSk4K5CdSZHpQsimTZUrxp-_LRHlj_45wW-VfE3rExDp45rwd5p1IFxp74LVblVmIHfHXhP7cTrAIDs8wCFdeiIoNddLNM2IBacR?width=605&height=438&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANeCYAAAAAAEHxGCnNvnrQbWo?width=605&height=438"
       />
       <div>The terminal screen during a human vs AI game.</div>
       <br />
       <img
         alt="reversicode"
-        src="https://sat02pap005files.storage.live.com/y4m9-igQgis_jSCgdRhOao8tFmCr3db4KxKRbdavH0M-Fcu1ZwxteRB8u0DDbckp1RsxyQkVHDOaHSkm9oDR5dF87avd2Ze4dKSQ4w_pXyy4BOfcD9DxEwb-TNK04cG6sIK1YUKCeLUPmZ-NUgdN8fz_a6joCc0GcQlOEFdBblIrRWN_YfLcax-fFYUITsgu_0r?width=786&height=593&cropmode=none"
+        src="https://1drv.ms/i/c/0da6cefb80d170b9/UQS5cNGA-86mIIANdyYAAAAAAGW-m_ElJUt0xP8?width=786&height=593"
       />
       <div>The CodeLite IDE.</div>
     </>
